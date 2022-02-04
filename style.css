@@ -48,21 +48,3 @@
   border-bottom: 4px solid #000000;
   transition: max-height 0.25s ease-in;
 }
-<style>
-  .banner {
-    background-image: url('assets/sussy.jpg');
-    background-size: cover;
-    height: 600px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 32px;
-  }
-
-  .banner > p {
-    color: white;
-    padding: 10px;
-  }
-</style>
