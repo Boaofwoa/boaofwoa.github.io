@@ -48,3 +48,11 @@
   border-bottom: 4px solid #000000;
   transition: max-height 0.25s ease-in;
 }
+.image-ablosute
+html { 
+  background: url(Assets/sussy.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
