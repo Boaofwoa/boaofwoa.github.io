@@ -48,3 +48,12 @@
   border-bottom: 4px solid #000000;
   transition: max-height 0.25s ease-in;
 }
+
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+
+ 
+  min-width: 100%;
+  min-height: 100%;
