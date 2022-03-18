@@ -21,7 +21,7 @@ textarea {
     background-repeat: no-repeat;
     opacity:0.7;
     background-size: 100%;
-    border-radius: 4px;
+    border-radius: 10px;
     
   }
 
@@ -38,38 +38,40 @@ color: rgb(0, 119, 255);
     
     
     button 
-    {
-      height: 37px;
-      
-      font-size: smaller;
-      width: 100px;
+    {font-size: larger;
+      height: 47px;
+      width: 180px;
       color: rgb(0, 0, 0);
       border-color: rgb(25, 126, 156);
-      border-radius: 4px;
+      border-radius: 20px;
     }
     
     
     
     input
     {
+      font-stretch: expanded;
+      font-family: sans-serif;
+      font-size: larger;
       width:685px ;
       border-color: rgb(33, 145, 160);
-      border-radius: 4px;
-      height: 31px;
+      border-radius: 1000px;
+      height: 41px;
     }
 
     #JD
     {
+      width: 180px;
       background-color: rgb(255, 255, 255);
-      height: 37px;
-      border-radius: 4px;
+      height: 47px;
+      border-radius: 20px;
     }
     
     
     table
     {
-    border: 3;
-    border-radius: 4px;
+    
+      border-radius: 1pc;
     border-color: rgb(33, 145, 160);
     
     }
@@ -79,4 +81,12 @@ color: rgb(0, 119, 255);
     td
     {
     border: 0px solid black;
+    }
+    #muza
+    {
+      
+background-color: rgb(0, 0, 0);
+border-color: black;
+border-radius:11%;
+
     }
