@@ -14,7 +14,7 @@ textarea:invalid {
 }
 
 textarea:valid {
-   border: 2px solid rgb(0, 0, 0);
+   border: 2px solid rgb(143, 230, 182);
 }
 textarea {
     background-image: url("assets/image/anime.jpg");
@@ -22,13 +22,13 @@ textarea {
     opacity:0.7;
     background-size: 100%;
     border-radius: 10px;
-    
+    border-width: px;
   }
 
   h2{
 font-size: 50;
 font-style: unset;
-color: rgb(0, 119, 255);
+color: rgb(51, 19, 73);
 }
 
 
@@ -42,8 +42,9 @@ color: rgb(0, 119, 255);
       height: 47px;
       width: 180px;
       color: rgb(0, 0, 0);
-      border-color: rgb(25, 126, 156);
+      border-color: rgb(143, 230, 182);
       border-radius: 0px;
+      border-width: 5px;
     }
     
     
@@ -53,10 +54,11 @@ color: rgb(0, 119, 255);
       font-stretch: expanded;
       font-family: sans-serif;
       font-size: larger;
-      width:675px ;
-      border-color: rgb(33, 145, 160);
+      width:674px ;
+      border-color: rgb(143, 230, 182);
+      border-width: 5px;
       border-radius: 0px;
-      height: 41px;
+      height: 35px;
     }
 
     #JD
@@ -71,8 +73,10 @@ color: rgb(0, 119, 255);
     table
     {
     
-      border-radius: 1pc;
-    border-color: rgb(33, 145, 160);
+      border-radius:20px ;
+    border-color: rgb(143, 230, 182);
+    border-width: 0
+    ;
     
     }
     
@@ -85,8 +89,10 @@ color: rgb(0, 119, 255);
     #muza
     {
       
-background-color: rgb(0, 0, 0);
-border-color: black;
-border-radius:11%;
+background-color: rgb(155, 162, 224);
+border-color: rgb(131, 216, 143);
+border-radius: 1px;
+border-width: 10px;
+
 
     }
