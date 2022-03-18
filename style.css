@@ -5,4 +5,13 @@ body
 }
 
 
+textarea {
+    resize: none;
+  }
+textarea:invalid {
+  border: 12px solid rgb(35, 25, 48);
+}
 
+textarea:valid {
+   border: 2px solid rgb(187, 255, 0);
+}
