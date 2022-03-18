@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
         $(document).ready(function(){
@@ -28,33 +29,35 @@
 <body>
     <center>
 
+
+<table>
     
     <tr>
         
         <h1>𝓝𝓸𝓽𝓪𝓽𝓴𝓲</h1>
         <br>
-           
+        <td colspan="3">
                 <textarea name="Tekst" id="Tekst" cols="80" rows="20" style="border:outset 4px rgb(32, 139, 189);"  autocapitalize spellcheck  placeholder="𝓣𝓾 𝓶𝓸𝔃̇𝓮𝓼𝔃 𝓹𝓲𝓼𝓪𝓬́..."></textarea>
-            
-        
+        </td>
+        </center>
         
     </tr>
     <tr>
-        Nazwa Pliku:
-        <input id="inputFileNameToSaveAs"></input>
-        <button onclick="saveTextAsFile()">Zapisz</button>
+       <td>Nazwa Pliku:</td> 
+       <td><input id="podajNazwePlikuDoPobrania"></input></td>
+       <td><button onclick="Zapiszplik()">Zapisz</button></td>
     </tr>
     
-
+  </table>
  
 <script type="text/javascript">
  
-function saveTextAsFile()
+function Zapiszplik()
 {
     var textToSave = document.getElementById("Tekst").value;
     var textToSaveAsBlob = new Blob([textToSave], {type:"text/plain"});
     var textToSaveAsURL = window.URL.createObjectURL(textToSaveAsBlob);
-    var fileNameToSaveAs = document.getElementById("inputFileNameToSaveAs").value;
+    var fileNameToSaveAs = document.getElementById("podajNazwePlikuDoPobrania").value;
  
     var downloadLink = document.createElement("a");
     downloadLink.download = fileNameToSaveAs;
@@ -75,45 +78,5 @@ function destroyClickedElement(event)
 
  
 </script>
-</center>
-<style>
-    #JD {
-     height: 500px;
-      background-image: url(assets/image/tło_your_name.jpg);
-      background-size: 100%;
-      background-repeat: no-repeat;
-    }
-    
-    #JD2 {
-      height: 600px;
-      background-image: url(assets/image/anime-original-cherry-blossom-fantasy-wallpaper-preview.jpg);
-      background-size: 100%;
-      background-repeat: no-repeat
-    ;
-    }
-
-    </style>
-    </head>
-    <body>
-    
-    
-    
-    <div class="main" id="JD">
-      <h2>Your name</h2>
-      <font></font>
-      
-      <a href="#JD2">przeniesienie</a>
-      
-    </div>
-    
-    <div class="main" id="JD2">
-      <h1>Chuj wie</h1>
-      <a href="#JD">przeniesienie2</a>
-    </div>
-
-
-
-
-
 </body>
 </html>
