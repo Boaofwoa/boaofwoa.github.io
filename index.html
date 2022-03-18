@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Stronka </title>
     <link rel="stylesheet" href="style.css">
+   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
         $(document).ready(function(){
@@ -24,23 +25,50 @@
           });
         });
         </script>
+<center>
+
 </head>
 <center>
     <h1>𝓝𝓸𝓽𝓪𝓽𝓴𝓲</h1>
-<textarea name="Tekst" id="Tekst" cols="80" rows="20" style="border:outset 4px rgb(32, 139, 189);"  autocapitalize spellcheck  placeholder="𝓣𝓾 𝓶𝓸𝔃̇𝓮𝓼𝔃 𝓹𝓲𝓼𝓪𝓬́..."></textarea>
+    <br />
+    <textarea name="Tekst" id="Tekst" cols="80" rows="20" style="border:outset 4px rgb(32, 139, 189);"  autocapitalize spellcheck  placeholder="𝓣𝓾 𝓶𝓸𝔃̇𝓮𝓼𝔃 𝓹𝓲𝓼𝓪𝓬́..."></textarea>
+    
+    <br /><br />
+    
+    <br />
+    <input value='Pobierz tekst' type='button'
+    onclick='doDL(document.getElementById("Tekst").value)' />
+    
+    
+    <script type='text/javascript'>
+    function doDL(s){
+        function dataUrl(data) {return "data:x-application/text," + escape(data);}
+        window.open(dataUrl(s));
+    }
+</script>
+
+
+    
+  
 </center>
 
 <body>
     <style>
         #JD {
-          height: 600px;
-          background-color: rgb(249, 253, 0);
+         height: 500px;
+          background-image: url(assets/image/tło_your_name.jpg);
+          background-size: 100%;
+          background-repeat: no-repeat;
         }
         
         #JD2 {
           height: 600px;
-          background-color: rgb(22, 157, 175);
+          background-image: url(assets/image/anime-original-cherry-blossom-fantasy-wallpaper-preview.jpg);
+          background-size: 100%;
+          background-repeat: no-repeat
+        ;
         }
+   
         </style>
         </head>
         <body>
@@ -48,14 +76,15 @@
         
         
         <div class="main" id="JD">
-          <h2>STRONA 1</h2>
+          <h2>Your name</h2>
+          <font></font>
           
           <a href="#JD2">przeniesienie</a>
           
         </div>
         
         <div class="main" id="JD2">
-          <h2>STRONA 2</h2>
+          <h1>Chuj wie</h1>
           <a href="#JD">przeniesienie2</a>
         </div>
     

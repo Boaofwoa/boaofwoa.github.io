@@ -24,3 +24,13 @@ textarea {
     
     
   }
+
+  h2{
+font-size: 50;
+font-style: unset;
+color: rgb(0, 119, 255);
+}
+h1{
+     font-style:oblique ;
+    color: rgba(48, 11, 83, 0.493);
+    }
