@@ -6,16 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Stronka </title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+ 
+  $("a").on('click', function(event) {
+       if (this.hash !== "") {
+     
+      event.preventDefault();
+       var hash = this.hash;
+       $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+    window.location.hash = hash;
+      });
+    } 
+  });
+});
+</script>
 </head>
-
 <center>
     <h1>𝓝𝓸𝓽𝓪𝓽𝓴𝓲</h1>
 <textarea name="Tekst" id="Tekst" cols="80" rows="20" style="border:outset 4px rgb(32, 139, 189);"  autocapitalize spellcheck  placeholder="𝓣𝓾 𝓶𝓸𝔃̇𝓮𝓼𝔃 𝓹𝓲𝓼𝓪𝓬́..."></textarea>
 </center>
 
 <body>
+    <style>
+        #JD {
+          height: 600px;
+          background-color: rgb(249, 253, 0);
+        }
+        
+        #JD2 {
+          height: 600px;
+          background-color: rgb(22, 157, 175);
+        }
+        </style>
+        </head>
+        <body>
+        
+        
+        
+        <div class="main" id="JD">
+          <h2>STRONA 1</h2>
+          
+          <a href="#JD2">przeniesienie</a>
+          
+        </div>
+        
+        <div class="main" id="JD2">
+          <h2>STRONA 2</h2>
+          <a href="#JD">przeniesienie2</a>
+        </div>
+    
 
-
-   
 </body>
 </html>
