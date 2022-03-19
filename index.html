@@ -4,152 +4,121 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Strona 1</title>
     <link href="style.css" rel="stylesheet" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-        $(document).ready(function(){
-         
-          $("a").on('click', function(event) {
-               if (this.hash !== "") {
-             
-              event.preventDefault();
-               var hash = this.hash;
-               $('html, body').animate({
-                scrollTop: $(hash).offset().top
-              }, 800, function(){
-            window.location.hash = hash;
-              });
-            } 
-          });
-        });
-        </script>
-        <style>
-          #JD
-{ 
-  
-}
-
+    
+    <style>
+        #button2 {
+            background-color: #ffffff;
+            border-width: 2px;
+            color: rgb(0, 0, 0);
+            border-color: #39ad73;
+        
+    }
         </style>
+          <style>
+            #button {
+                background-color: #ffffff;
+                border-width: 2px;
+                color: rgb(0, 0, 0);
+               border-color: #39ad73;
+               width: 80px;
+            
+        }
+            </style>
+            <style>
+                #span3
+                {
+                    font-size: large;
 
-        <style>
-          #muza
-          {
+                }
 
-
-          }
-        </style>
+            </style>
 </head>
-<html>
 <body>
-
-    <center>
-
-      
-    
-
+   
+<center>
 <table>
+    <tbody>
+        <tr>
+            <td colspan="3">
+            <textarea name="Tekts" id="Tekts" cols="130" rows="30" style="border:outset 3px #39ad73;" autocapitalize="auto" placeholder="Tu Pisz"></textarea>
+            </td>
+                </tr>
+            <tr>
+                <td>
+                <div id="NazwaPliku">
+                        <button disabled id="button2">Nazwa Pliku</button>
+                     </div>
+                </td>
+                <td>
+                    <input id="Nazwa">
+                </td>
+                <td>
+                    <button onclick="ZapiszPlik()"id="button" >Zapisz</button>
+
+                </td>
+            </tr>
+            <div>
+
+                <script type="text/javascript" charset="utf-8">
+                    let a;
+                    let time;
+                    setInterval(() => {
+                      a = new Date();
+                      time = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds();
+                      document.getElementById('time').innerHTML = time;
+                    }, 1000);
+                  </script>
+                  <span id="span3">Godzina: </span>
+                  <span id="time"></span>  
     
-    <tr>
-        
-        <h1>𝓝𝓸𝓽𝓪𝓽𝓴𝓲</h1>
-        <br>
-        <td colspan="3">
-                <textarea name="Tekst" id="Tekst" cols="140" rows="40" style="border:outset 6px rgb(143, 230, 182);"  autocapitalize spellcheck  placeholder="𝓣𝓾 𝓶𝓸𝔃̇𝓮𝓼𝔃 𝓹𝓲𝓼𝓪𝓬́..."></textarea>
-        </td>
-        
-        
-    </tr>
-    <tr>
-     
-        
-          
-      <td><div id="JD">
-           
-              <button disabled>Nazwa Pliku:</button>
-            
               
-            
+            </div>
+           
           
-          </div></td>
-        
-        
-    
-        
-       <td><input id="podajNazwePlikuDoPobrania"></input></td>
-       <td><button onclick="Zapiszplik()">Zapisz</button></td>
-    </tr>
-    
-  </table>
-<br>
-<br>
-<br>
-  <table border="10">
-    <td>
-    
-        <div id="muza">
-          <audio controls="controls">
-            <source src="assets/audio/Miki Matsubara 松原 みき - 真夜中のドア Stay With Me [ Remastered ].mp3" type="audio/mp3" />
-            <source src="assets/audio/teabe-co-tam-jak-tam-prod-mvteusz-mlynvrski.mp3" type="audio/mp3" />
-             </audio>
-        
-        
-        </div>
-      </td></table>
-      <table border="10"> <td>
-        <div id="muza">
-          <audio controls="controls">
-            <source src="assets/audio/teabe-co-tam-jak-tam-prod-mvteusz-mlynvrski.mp3" type="audio/mp3" />
-            </audio>
-        
-        
-        </div>
-      </td></table>
-      <table border="10"> <td>
-        <div id="muza">
-          <audio controls="controls">
-            <source src="assets/audio/young-policja-bardzo-tensknie-za-tobom-lovesong-bass-boosted.mp3" type="audio/mp3" />
-          </audio>
-            
-          
-        
-        
-        </div>
-      </td>
-      
-    </table>
+
+
+    </tbody>
+   
+
+
+
+
+</table>
 </center>
 <script type="text/javascript">
- 
-function Zapiszplik()
-{
-    var textToSave = document.getElementById("Tekst").value;
-    var textToSaveAsBlob = new Blob([textToSave], {type:"text/plain"});
-    var textToSaveAsURL = window.URL.createObjectURL(textToSaveAsBlob);
-    var fileNameToSaveAs = document.getElementById("podajNazwePlikuDoPobrania").value;
- 
-    var downloadLink = document.createElement("a");
-    downloadLink.download = fileNameToSaveAs;
-    downloadLink.innerHTML = "Pobierz";
-    downloadLink.href = textToSaveAsURL;
-    downloadLink.onclick = destroyClickedElement;
-    downloadLink.style.display = "none";
-    document.body.appendChild(downloadLink);
- 
-    downloadLink.click();
-}
- 
-function destroyClickedElement(event)
-{
-    document.body.removeChild(event.target);
-}
- 
+    function ZapiszPlik()
+    {
+       var textToSave = document.getElementById("Tekts").value;//vartosc to co napisane w srodku
+       var textToSaveAsBlob = new Blob([textToSave], {type:"text/plain"});
+       var textToSaveAsURL = window.URL.createObjectURL(textToSaveAsBlob);//plik
+       var fileNameToSaveAs = 
+       document.getElementById("Nazwa").value;//to co napisane w inpucie
+       
+       var downloadLink = document.createElement("a");
+       downloadLink.download = fileNameToSaveAs;
+       downloadLink.innerHTML = "Pobierz";
+       downloadLink.href = textToSaveAsURL;
+       downloadLink.onclick = destroyClickedElement;
+       downloadLink.style.display = "none";
+       document.body.appendChild(downloadLink);
 
- 
+       downloadLink.click();
+    }
+    function destroyClickedElement(event)
+{
+document.body.removeChild(event.target);
+
+    }
+
+
+
 </script>
 
 
 
+   
 
 </body>
 </html>
