@@ -3,7 +3,22 @@ body
 background-image:url(assets/images/cherry-blossom-anime-girls-guitar-trees-sky-clouds-1606277-wallhere.com.jpg);
 background-repeat: no-repeat;
 background-size:  100%;
-background-attachment: unset;
+background-clip: unset;
+background-attachment: fixed;
+
+}
+
+div.Godzina
+{
+background-color: rgb(198, 169, 224);
+opacity: 0.8;
+color: black;
+border-radius: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+font-size: xx-large;
+width: 15%;
+border:solid;
 
 }
 textarea 
@@ -35,7 +50,7 @@ td
 table
 {
     border-width: 5px;
-    border-color: rgba(114, 128, 52, 0.575);
+    border-color: rgba(201, 159, 197, 0.575);
 }
 
 
@@ -50,10 +65,26 @@ input
 {
     height: 30px;
     width: 786px;
-border-width: 2px;
+border-width: 3px;
 border-radius: 5px;
-border-color: #39ad73;
+border-color: #ecace9;
+
 }
+div.NazwaAnime
+{
+    background-color: rgb(225, 192, 226);
+    
+    color: black;
+    text-align: center;
+    width: 30%;
+    border-radius: 20px;
+    border: solid;
+    margin-top: 200px;
+    font-size:x-large;
+
+
+}
+
 div.jeden
 {
     background-image: url(assets/images/Anime/3219ddcc611feb028cda1a796e7750e1.png);

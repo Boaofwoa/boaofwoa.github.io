@@ -10,29 +10,28 @@
     <style>
         #button2 {
             background-color: #ffffff;
-            border-width: 2px;
+            border-width: 3px;
             color: rgb(0, 0, 0);
-            border-color: #39ad73;
+            border-color: #b998b9;
         
     }
         </style>
           <style>
             #button {
                 background-color: #ffffff;
-                border-width: 2px;
+                border-width: 3px;
                 color: rgb(0, 0, 0);
-               border-color: #39ad73;
+               border-color: #967396;
                width: 80px;
             
         }
             </style>
+           
             <style>
                 #span3
                 {
-                    font-size: large;
-
+                    font-size: xx-large;
                 }
-
             </style>
 </head>
 <body>
@@ -42,8 +41,10 @@
     <tbody>
         <tr>
             <td colspan="3">
-            <textarea name="Tekts" id="Tekts" cols="130" rows="30" style="border:outset 3px #39ad73;" autocapitalize="auto" placeholder="Tu Pisz"></textarea>
-            </td>
+            <textarea name="Tekts" id="Tekts" cols="130" rows="30" style="border:outset 5px #9778a5;" autocapitalize="auto" placeholder="Tu Możesz pisać..."></textarea>
+        
+        </td>
+    
                 </tr>
             <tr>
                 <td>
@@ -52,14 +53,16 @@
                      </div>
                 </td>
                 <td>
-                    <input id="Nazwa">
+                    <input placeholder="Tu podaj nazwę pliku..." id="Nazwa">
                 </td>
                 <td>
                     <button onclick="ZapiszPlik()"id="button" >Zapisz</button>
 
                 </td>
             </tr>
-            <div>
+           
+           <center>
+<div class="Godzina">
 
                 <script type="text/javascript" charset="utf-8">
                     let a;
@@ -68,7 +71,7 @@
                       a = new Date();
                       time = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds();
                       document.getElementById('time').innerHTML = time;
-                    }, 1000);
+                    }, 1);
                   </script>
                   <span id="span3">Godzina: </span>
                   <span id="time"></span>  
@@ -76,6 +79,7 @@
               
             </div>
            
+           </center> 
           
 
 
@@ -115,10 +119,11 @@ document.body.removeChild(event.target);
 
 
 </script>
+<center>
+    <div class="NazwaAnime">Obrazki</div>
+</center>
 
 
-
-   
 
 <div class="srodek">
     <div class="jeden"></div>
@@ -140,4 +145,5 @@ document.body.removeChild(event.target);
 
 
 </body>
+
 </html>
