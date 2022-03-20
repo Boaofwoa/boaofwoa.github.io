@@ -8,27 +8,17 @@ background-attachment: fixed;
 
 }
 
-div.Godzina
-{
-background-color: rgb(198, 169, 224);
-opacity: 0.8;
-color: black;
-border-radius: 20px;
-margin-top: 20px;
-margin-bottom: 20px;
-font-size: xx-large;
-width: 15%;
-border:solid;
 
-}
 textarea 
 {
    resize: none; 
    background-image: url(assets/images/anime.jpg);
    background-size: 100%;
-   opacity: 0.7;
+   opacity: 0.8;
    color: black;
    border-radius: 8px;
+   margin-top: 100px;
+   border: solid;
 }
 
 
@@ -36,6 +26,7 @@ html
 {
 
     scroll-behavior: smooth;
+    
 }
 
 
@@ -64,9 +55,9 @@ button{
 input
 {
     height: 30px;
-    width: 786px;
+    width: 880px;
 border-width: 3px;
-border-radius: 5px;
+border-radius: 15px;
 border-color: #ecace9;
 
 }
@@ -85,174 +76,37 @@ div.NazwaAnime
 
 }
 
-div.jeden
-{
-    background-image: url(assets/images/Anime/3219ddcc611feb028cda1a796e7750e1.png);
-    height:47%;
-    width: 19%;
-    border-radius: 15px;
-    border:solid;
-    color: rgb(113, 102, 172);
-    text-align: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    float: left;
-    margin-left: 10px;
-    margin-top: 7px;
-}
-div.dwa
-{
-    background-image: url(assets/images/Anime/lewd_neko783.jpeg);
-    height:47%;
-    width: 19%;
-    border-radius: 15px;
-    border:solid;
-    color: rgb(113, 102, 172);
-    text-align: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    float: left;
-    margin-top: 7px;
-    margin-left: 10px;
-    }
-    div.trzy
-  {
-    background-image: url(assets/images/Anime/4089e80fb61e43c557726c03cf0ddc36.jpg);
-    height:47%;
-    width: 19%;
-    border-radius: 15px;
-    border:solid;
-    color: rgb(113, 102, 172);
-    text-align: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    float: left;
-    margin-top: 7px;
-    margin-left: 10px;
-    background-color: rgb(0, 0, 0);
-    
-    }
 
-    div.cztery
-    { 
-      background-image: url(assets/images/Anime/8a73004e091ef434be358d905a6cc4e4.jpg);
-    height:47%;
-    width: 19%;
-    border-radius: 15px;
-    border:solid;
-    color: rgb(113, 102, 172);
-    text-align: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    float: left;
-    margin-top: 7px;
-    margin-left: 10px;
-    }
-    
-    div.piec
-    {
-    background-image: url(assets/images/Anime/dc1e74e927167288fb6fb43784cf25f9.jpg);
-    height:47%;
-    width:19%;
-    border-radius: 15px;
-    border:solid;
-    color: rgb(113, 102, 172);
-    text-align: center;
-    background-size: 150%;
-    background-repeat: no-repeat;
-    float: left;
-    margin-top: 7px;
-    margin-left: 10px;
-    }
-     div.szesc
-    {
-     background-image: url(assets/images/Anime/4b23650d25c922d9a500c179ec81265b.jpg);
-    height:47%;
-    width: 19%;
-    border-radius: 15px;
-    border:solid;
-    color: rgb(113, 102, 172);
-    text-align: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    float: left;
-    margin-top: 10px;
-    margin-left: 10px;
-   }
-   div.siedem
-   {
-    background-image: url(assets/images/Anime/28ecfcdaa3a3dd6ef64ed6a1a6da6a4c.jpg);
-   height:47%;
-   width: 19%;
-   border-radius: 15px;
-   border:solid;
-   color: rgb(113, 102, 172);
-   text-align: center;
-   background-size: 100%;
-   background-repeat: no-repeat;
-   float: left;
-   margin-top: 10px;
-   margin-left: 10px;
-  }
-  div.osiem
-  {
-   background-image: url(assets/images/Anime/104b65805cd3307bbf95be65b3060a63.png);
-  height:47%;
-  width: 19%;
-  border-radius: 15px;
-  border:solid;
-  color: rgb(113, 102, 172);
-  text-align: center;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  float: left;
-  margin-top: 10px;
-  margin-left: 10px;
- }
- div.dziewiec
- {
-  background-image: url(assets/images/Anime/f5acd9ffa4e47435e2f62526d0543a22.png);
- height:47%;
- width: 19%;
- border-radius: 15px;
- border:solid;
- color: rgb(113, 102, 172);
- text-align: center;
- background-size: 100%;
- background-repeat: no-repeat;
- float: left;
- margin-top: 10px;
- margin-left: 10px;
-}
-div.dziesiec
+table.Tabela2
 {
- background-image: url(assets/images/Anime/30c1826bdfdbfcb49dbb39fd8471bdda.jpg);
-height:47%;
-width: 19%;
-border-radius: 15px;
+   
+       
+        
+        border-radius: 20px;
+        width: 100%;
+        height: 950px;
+        margin-top: 20px;
+        color: black;
+        border-color: black;
+       
+
+ 
+}
+
+
+
+  .Godzina {
+position: fixed;  
+
+border-radius: 20px;
+width: 99%;
+letter-spacing: 3px;
 border:solid;
-color: rgb(113, 102, 172);
-text-align: center;
-background-size: 100%;
-background-repeat: no-repeat;
-float: left;
-margin-top: 10px;
-margin-left: 10px;
-}
+background-color: rgba(198, 169, 224, 1);
+opacity: 1;
+color: black;
+margin-top: 20px;
+margin-bottom: 20px;
+font-size: xx-large;
 
-div.srodek
-{
-    background-color: rgba(233, 127, 162, 0.349);
-    height:960px;
-    width: 100%;
-    border-radius: 20px;
-    border:solid;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    margin-top: 20px;
-}
-
-
-
-
-
+  }
