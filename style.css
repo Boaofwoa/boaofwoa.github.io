@@ -63,11 +63,11 @@ border-color: #ecace9;
 }
 div.NazwaAnime
 {
-    background-color: rgb(225, 192, 226);
+    background-color: rgba(225, 192, 226, 0.664);
     
     color: black;
     text-align: center;
-    width: 30%;
+    width: 20%;
     border-radius: 20px;
     border: solid;
     margin-top: 200px;
@@ -97,16 +97,17 @@ table.Tabela2
 
   .Godzina {
 position: fixed;  
-
-border-radius: 20px;
 width: 99%;
 letter-spacing: 3px;
-border:solid;
-background-color: rgba(198, 169, 224, 1);
+border-radius: 500pc;
+background-color: rgba(79, 109, 102, 0.555);
 opacity: 1;
 color: black;
 margin-top: 20px;
 margin-bottom: 20px;
 font-size: xx-large;
+text-align: center;
+height: 60;
 
   }
+  

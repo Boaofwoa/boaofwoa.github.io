@@ -197,7 +197,22 @@
                     }
                 </style>
                     
-                                  
+                    <div class="Godzina" style="z-index: 2">
+            
+                        <script type="text/javascript" charset="utf-8">
+                            let a;
+                            let time;
+                            setInterval(() => {
+                              a = new Date();
+                              time = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds();
+                              document.getElementById('time').innerHTML = time;
+                            }, 1);
+                          </script>
+                          <span class="span3">Godzina: </span>
+                          <span id="time"></span>  
+            
+                      
+                    </div>                 
          
                 
 </head>
@@ -214,24 +229,7 @@
                 
                 </td>
             </div>
-         
         
-            <div class="Godzina" style="z-index: 2">
-            
-                            <script type="text/javascript" charset="utf-8">
-                                let a;
-                                let time;
-                                setInterval(() => {
-                                  a = new Date();
-                                  time = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds();
-                                  document.getElementById('time').innerHTML = time;
-                                }, 1);
-                              </script>
-                              <span class="span3">Godzina: </span>
-                              <span id="time"></span>  
-                
-                          
-                        </div>
                        
                       
                 </tr>
@@ -288,7 +286,9 @@ document.body.removeChild(event.target);
 
 </script>
 <center>
-    <div class="NazwaAnime">Obrazki</div>
+    <div class="NazwaAnime">
+        𝒜𝓃𝒾𝓂ℯ
+    </div>
 </center>
 
 
