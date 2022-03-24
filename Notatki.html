@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boaofwoa</title>
+    <link href="Notatki.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="navbar">
+        <div> <img class="Logo" src="assets/image/fire-303309_1280.png">
+        <a href="index.html">Strona główna</a>
+        <a href="#">Notatki</a>
+        <div class="dropdown">
+          <button class="dropbtn">Zwierzęta
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="Anime">
+            <a href="koty.html">Koty</a>
+            <a href="psy.html">Psy</a>
+            
+        </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="Wiadomosci">
+        <center>
+          <table>
+              <tbody>
+                  
+                  <tr>
+                      <div>
+                          <td colspan="3">
+                              <textarea name="Tekts" id="Tekts" cols="130" rows="30" style="border:outset 5px #b7c4d1; position: relative; z-index: 1;;" autocapitalize="auto" placeholder="Tu Możesz pisać..."></textarea>
+                          
+                          </td>
+                      </div>
+                  
+                                 
+                                
+                          </tr>
+                      <tr>
+                          
+                          <td>
+                              <input placeholder="Tu podaj nazwę pliku..." id="Nazwa">
+                          </td>
+                          <td>
+                              <button onclick="ZapiszPlik()"id="button" >Zapisz</button>
+          
+                          </td>
+                          
+                      </tr>
+                     
+          
+                    
+          
+          
+              </tbody>
+             
+          
+          
+          
+          
+          </table>
+          </center>
+          <script type="text/javascript">
+              function ZapiszPlik()
+              {
+                 var textToSave = document.getElementById("Tekts").value;//vartosc to co napisane w srodku
+                 var textToSaveAsBlob = new Blob([textToSave], {type:"text/plain"});
+                 var textToSaveAsURL = window.URL.createObjectURL(textToSaveAsBlob);//plik
+                 var fileNameToSaveAs = 
+                 document.getElementById("Nazwa").value;//to co napisane w inpucie
+                 
+                 var downloadLink = document.createElement("a");
+                 downloadLink.download = fileNameToSaveAs;
+                 downloadLink.innerHTML = "Pobierz";
+                 downloadLink.href = textToSaveAsURL;
+                 downloadLink.onclick = destroyClickedElement;
+                 downloadLink.style.display = "none";
+                 document.body.appendChild(downloadLink);
+          
+                 downloadLink.click();
+              }
+              function destroyClickedElement(event)
+          {
+          document.body.removeChild(event.target);
+          
+              }
+          
+          
+          
+          </script>
+        
+
+      </div>
+      <div class="Notkanadole">
+        Cześć! Tu możesz zapisywać swoje notatki.
+      </div>     
+     
+</body>
+</html>
