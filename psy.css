@@ -5,13 +5,22 @@ body{
 
  
 }
+nav {
+  position: sticky; top: 0;
+  height: 10px;
+  background-color: #333;
+ 
+ 
+}
 
 .navbar {
     overflow: hidden;
     background-color: #333;
     font-family: Arial;
     padding: 10px;
-    
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lato', sans-serif;
+    height: 50px;
   }
   
   
@@ -34,8 +43,9 @@ body{
   /* Przycisk*/
   .dropdown .dropbtn {
     font-size: 16px;
-    border: none;
-    outline: none;
+    border-color: #ffffff;
+    border-radius:16px ;
+    border-width: 3px;
     color: rgb(255, 255, 255);
     padding: 14px 16px;
     background-color: inherit;
@@ -58,14 +68,13 @@ body{
     display: none;
     position: absolute;
     background-color: #ffffff;
-    min-width: 100px;
+    min-width: 125px;
     box-shadow: 0px 7px 15px 0px rgb(80, 78, 78);
     z-index: 2;
     border-radius: 20px;
     text-align: center;
     border-color: rgba(255, 255, 255, 0);
-    border-style: groove;
-    border: hidden;
+    
   }
   
 
@@ -93,7 +102,6 @@ body{
     width: 40px;
     float: left;
     margin-right: 40px;
-   
   }
   .Stronag
   {
@@ -103,5 +111,56 @@ body{
   .Notaty
   {
     margin-right: 10px;
+    border-radius: 16px;
+    border-color: #ffffff;
+  }
+  .Napisnasrodku
+  {
+    font-size: 150px;
+    text-align: center;
+    margin-top: 10%;
+    
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lato', sans-serif;
   }
 
+  .Napisnasrodku > .Napisnasrodku2
+  {
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lato', sans-serif;
+  }
+  nav ul {
+    -webkit-font-smoothing:antialiased;
+    text-shadow:0 1px 0 #FFF;
+      background: #ddd;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+  }
+
+  nav a {
+      background: rgba(236, 233, 233, 0);
+      color: #444;
+      display: block;
+      
+      text-align: center;
+      text-decoration: none;
+      -webkit-transition: all .25s ease;
+         -moz-transition: all .25s ease;
+          -ms-transition: all .25s ease;
+           -o-transition: all .25s ease;
+              transition: all .25s ease;
+  }
+  nav #dropdown:after {
+      content: ' ▶';
+  }
+  nav #dropdown:hover:after{
+    content:'\25bc'
+  }
+
+  
+  /* Clearfix */
+  
+  
