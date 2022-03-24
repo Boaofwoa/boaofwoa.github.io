@@ -3,81 +3,111 @@ body{
   margin: 0px;
   background-color: rgb(122, 122, 122);
 
-  background-repeat: no-repeat;
-  background-size: cover;  
+ 
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    padding: 10px;
+    
   }
   
-  .navbar {
-      overflow: hidden;
-      background-color: #333;
-      font-family: Arial;
-      padding: 5px;
-    }
-    
-    
-    .navbar a {
-      float: left;
-      font-size: 16px;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
-    
-    
-    .dropdown {
-      float: left;
-      overflow: hidden;
-    }
-    
-    /* Przycisk*/
-    .dropdown .dropbtn {
-      font-size: 16px;
-      border: none;
-      outline: none;
-      color: white;
-      padding: 14px 16px;
-      background-color: inherit;
-      font-family: inherit; 
-      margin: 0; 
-    }
-    
-   
-    .navbar a:hover, .dropdown:hover .dropbtn {
-      background-color: rgb(116, 116, 116);
-      border-radius: 15px;
-      margin-left: 5px;
-    }
-    
   
-    .Anime {
-      display: none;
-      position: absolute;
-      background-color: #f9f9f9;
-      min-width: 160px;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      z-index: 2;
-    }
-    
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
   
-    .Anime a {
-      float: none;
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-      text-align: left;
-    }
-    
   
-    .Anime a:hover {
-      background-color: #ddd;
-    }
+  .dropdown {
+    float: left;
+    overflow: hidden;
     
+  }
   
-    .dropdown:hover .Anime{
-      display: block;
-    }
+  /* Przycisk*/
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+  }
+  
+ 
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:  rgb(107, 107, 107);
+    border-radius: 15px;
+    border-width: 10px;
+    border-color: #333;
+    border:solid;
+      
+  }
+  
+
+  .Anime {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 100px;
+    box-shadow: 0px 7px 15px 0px rgb(80, 78, 78);
+    z-index: 2;
+    border-radius: 20px;
+    text-align: center;
+    border-color: rgba(255, 255, 255, 0);
+    border-style: groove;
+    border: hidden;
+  }
+  
+
+  .Anime a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+
+  .Anime a:hover {
+    background-color: rgb(102, 102, 102);
+  }
+  
+
+  .dropdown:hover .Anime{
+    display: block;
+  }
+  .Logo
+  {
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-right: 40px;
+  }
+  .Stronag
+  {
+    
+    margin-right: 10px;
+  }
+  .Notaty
+  {
+    margin-right: 10px;
+  }
+
+
+
+
+
    textarea
   {
     background-image: url(Notatki/assets/image/tlotext.jpg);
@@ -89,34 +119,13 @@ body{
     color: white;
     z-index: 1;
   }
-  #Nazwa
-  {
-   
-        height: 30px;
-        width: 850px;
-    border-width: 3px;
-    border-radius: 15px;
-    border-color: #b7c4d1;
-    
-  
-    border-radius: 8px;
 
-  }
-  #button
-  {
-    
-    border-color:#b7c4d1 ;
-      border-radius: 5px;
-      height: 37px;
-      width: 100px;
-  
-  }
- 
  .Logo
  {
-   height: 50px;
-   width: 50px;
+   height: 40px;
+   width: 40px;
    float: left;
+   margin-right: 40px;
  }
 .Notkanadole
 {
@@ -131,3 +140,25 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
+#button
+  {
+    
+    border-color:#b7c4d1 ;
+      border-radius: 5px;
+      height: 37px;
+      width: 100px;
+  
+  }
+  #Nazwa
+  {
+   
+        height: 30px;
+        width: 850px;
+    border-width: 3px;
+    border-radius: 15px;
+    border-color: #b7c4d1;
+    
+  
+    border-radius: 8px;
+
+  }
