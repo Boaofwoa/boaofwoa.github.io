@@ -1,7 +1,7 @@
 body
 {
     background-image:url(assets/Demon-Slayer-Computer-Wallpaper.jpg);
-    background-attachment: scroll;
+    background-attachment: fixed;
     margin: 0px;
 }
 #lista_odc
@@ -48,4 +48,34 @@ a:visited{
 
 a:active{
 	color: rgb(124, 122, 122);
+}
+.historia-mieczzabu
+{
+    background-color: rgba(34, 34, 34, 0.67);
+    width: 500px;
+    margin-left:auto ;
+    margin-right:auto ;
+    padding: 10px;
+    margin-top: 20px;
+    height: 500px;
+}
+h1{
+font-family: 'Teko', sans-serif;;
+}
+#nazwazabu
+{
+    font-size: 30px;
+    color: white;
+}
+.histozabu1
+{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    color: white;
+}
+.histozabu2
+{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    color: white;
 }
