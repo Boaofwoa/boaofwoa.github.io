@@ -31,14 +31,15 @@ dt{
     width: 400px;
     font-size: 20px;
     font-family: 'Patrick Hand', cursive;
-    color: white;
+    color: rgb(31, 49, 65);
 }
-a:hover{
-	color: rgb(255, 0, 0);
-}
+
 a{
 	color: rgb(255, 255, 255);
 	text-decoration: none;
+}
+a:hover{
+	color: rgb(79, 61, 210);
 }
 .historia-mieczzabu
 {

@@ -24,24 +24,26 @@ padding: 1px;
     style="
     float: left;
     border-radius: 5px;
-    background-color:rgb(0, 0, 0) ;
+    background-color:rgba(122, 223, 137, 0.668) ;
     height: 40px;
     width: 170px;
     font-family: 'Patrick Hand', cursive;
     font-size: 20px;
     margin-top: 20px;
+    border-color: rgba(240, 248, 255, 0);
     
     "><a href="MZDR1.html">Poprzedni Rozdział</a> </button> <a href="index.html" >Miecz Zabójcy Demonów, Rodział 1</a>  
     <button 
     style="
-    float: right;
+     float: right;
     border-radius: 5px;
-    background-color:rgb(0, 0, 0) ;
+    background-color:rgba(0, 174, 255, 0.668) ;
     height: 40px;
     width: 170px;
     font-family: 'Patrick Hand', cursive;
     font-size: 20px;
     margin-top: 20px;
+    border-color: rgba(240, 248, 255, 0);
     
     "><a href="MZDR2.html">Następny Rozdział</a>
 </nav>
@@ -49,59 +51,59 @@ padding: 1px;
 <body>
     <div style="text-align: center; margin-top:50px;">
         <picture>
-            <img  src="MZDR1/1.jpg" alt=""><br>
-            <img  src="MZDR1/2.jpg" alt=""><br>
-            <img  src="MZDR1/3.jpg" alt=""><br>
-            <img  src="MZDR1/4.jpg" alt=""><br>
-            <img  src="MZDR1/5.jpg" alt=""><br>
-            <img  src="MZDR1/6.jpg" alt=""><br>
-            <img  src="MZDR1/7.jpg" alt=""><br>
-            <img  src="MZDR1/8.jpg" alt=""><br>
-            <img  src="MZDR1/9.jpg" alt=""><br>
-            <img  src="MZDR1/10.jpg" alt=""><br>
-            <img  src="MZDR1/11.jpg" alt=""><br>
-            <img  src="MZDR1/12.jpg" alt=""><br>
-            <img  src="MZDR1/13.jpg" alt=""><br>
-            <img  src="MZDR1/14.jpg" alt=""><br>
-            <img  src="MZDR1/15.jpg" alt=""><br>
-            <img  src="MZDR1/16.jpg" alt=""><br>
-            <img  src="MZDR1/17.jpg" alt=""><br>
-            <img  src="MZDR1/18.jpg" alt=""><br>
-            <img  src="MZDR1/19.jpg" alt=""><br>
-            <img  src="MZDR1/20.jpg" alt=""><br>
-            <img  src="MZDR1/21.jpg" alt=""><br>
-            <img  src="MZDR1/22.jpg" alt=""><br>
-            <img  src="MZDR1/23.jpg" alt=""><br>
-            <img  src="MZDR1/24.jpg" alt=""><br>
-            <img  src="MZDR1/25.jpg" alt=""><br>
-            <img  src="MZDR1/26.jpg" alt=""><br>
-            <img  src="MZDR1/27.jpg" alt=""><br>
-            <img  src="MZDR1/28.jpg" alt=""><br>
-            <img  src="MZDR1/29.jpg" alt=""><br>
-            <img  src="MZDR1/30.jpg" alt=""><br>
-            <img  src="MZDR1/31.jpg" alt=""><br>
-            <img  src="MZDR1/32.jpg" alt=""><br>
-            <img  src="MZDR1/33.jpg" alt=""><br>
-            <img  src="MZDR1/34.jpg" alt=""><br>
-            <img  src="MZDR1/35.jpg" alt=""><br>
-            <img  src="MZDR1/36.jpg" alt=""><br>
-            <img  src="MZDR1/37.jpg" alt=""><br>
-            <img  src="MZDR1/38.jpg" alt=""><br>
-            <img  src="MZDR1/39.jpg" alt=""><br>
-            <img  src="MZDR1/40.jpg" alt=""><br>
-            <img  src="MZDR1/41.jpg" alt=""><br>
-            <img  src="MZDR1/42.jpg" alt=""><br>
-            <img  src="MZDR1/43.jpg" alt=""><br>
-            <img  src="MZDR1/44.jpg" alt=""><br>
-            <img  src="MZDR1/45.jpg" alt=""><br>
-            <img  src="MZDR1/46.jpg" alt=""><br>
-            <img  src="MZDR1/47.jpg" alt=""><br>
-            <img  src="MZDR1/48.jpg" alt=""><br>
-            <img  src="MZDR1/49.jpg" alt=""><br>
-            <img  src="MZDR1/50.jpg" alt=""><br>
-            <img  src="MZDR1/51.jpg" alt=""><br>
-            <img  src="MZDR1/52.jpg" alt=""><br>
-            <img class="koncuwa" src="MZDR1/53.jpg" alt=""><br>
+            <img  src="R/MZDR/1.jpg" alt=""><br>
+            <img  src="R/MZDR/2.jpg" alt=""><br>
+            <img  src="R/MZDR/3.jpg" alt=""><br>
+            <img  src="R/MZDR/4.jpg" alt=""><br>
+            <img  src="R/MZDR/5.jpg" alt=""><br>
+            <img  src="R/MZDR/6.jpg" alt=""><br>
+            <img  src="R/MZDR/7.jpg" alt=""><br>
+            <img  src="R/MZDR/8.jpg" alt=""><br>
+            <img  src="R/MZDR/9.jpg" alt=""><br>
+            <img  src="R/MZDR/10.jpg" alt=""><br>
+            <img  src="R/MZDR/11.jpg" alt=""><br>
+            <img  src="R/MZDR/12.jpg" alt=""><br>
+            <img  src="R/MZDR/13.jpg" alt=""><br>
+            <img  src="R/MZDR/14.jpg" alt=""><br>
+            <img  src="R/MZDR/15.jpg" alt=""><br>
+            <img  src="R/MZDR/16.jpg" alt=""><br>
+            <img  src="R/MZDR/17.jpg" alt=""><br>
+            <img  src="R/MZDR/18.jpg" alt=""><br>
+            <img  src="R/MZDR/19.jpg" alt=""><br>
+            <img  src="R/MZDR/20.jpg" alt=""><br>
+            <img  src="R/MZDR/21.jpg" alt=""><br>
+            <img  src="R/MZDR/22.jpg" alt=""><br>
+            <img  src="R/MZDR/23.jpg" alt=""><br>
+            <img  src="R/MZDR/24.jpg" alt=""><br>
+            <img  src="R/MZDR/25.jpg" alt=""><br>
+            <img  src="R/MZDR/26.jpg" alt=""><br>
+            <img  src="R/MZDR/27.jpg" alt=""><br>
+            <img  src="R/MZDR/28.jpg" alt=""><br>
+            <img  src="R/MZDR/29.jpg" alt=""><br>
+            <img  src="R/MZDR/30.jpg" alt=""><br>
+            <img  src="R/MZDR/31.jpg" alt=""><br>
+            <img  src="R/MZDR/32.jpg" alt=""><br>
+            <img  src="R/MZDR/33.jpg" alt=""><br>
+            <img  src="R/MZDR/34.jpg" alt=""><br>
+            <img  src="R/MZDR/35.jpg" alt=""><br>
+            <img  src="R/MZDR/36.jpg" alt=""><br>
+            <img  src="R/MZDR/37.jpg" alt=""><br>
+            <img  src="R/MZDR/38.jpg" alt=""><br>
+            <img  src="R/MZDR/39.jpg" alt=""><br>
+            <img  src="R/MZDR/40.jpg" alt=""><br>
+            <img  src="R/MZDR/41.jpg" alt=""><br>
+            <img  src="R/MZDR/42.jpg" alt=""><br>
+            <img  src="R/MZDR/43.jpg" alt=""><br>
+            <img  src="R/MZDR/44.jpg" alt=""><br>
+            <img  src="R/MZDR/45.jpg" alt=""><br>
+            <img  src="R/MZDR/46.jpg" alt=""><br>
+            <img  src="R/MZDR/47.jpg" alt=""><br>
+            <img  src="R/MZDR/48.jpg" alt=""><br>
+            <img  src="R/MZDR/49.jpg" alt=""><br>
+            <img  src="R/MZDR/50.jpg" alt=""><br>
+            <img  src="R/MZDR/51.jpg" alt=""><br>
+            <img  src="R/MZDR/52.jpg" alt=""><br>
+            <img class="koncuwa" src="R/MZDR/53.jpg" alt=""><br>
           
         </picture>
        

@@ -38,16 +38,17 @@ a{
 	text-decoration: none;
 }
 
-a:hover{
-	color: rgb(145, 145, 145);
-}
+
 
 a:visited{
-	color: rgb(184, 184, 150);
+	color: rgb(235, 229, 156);
 }
 
 a:active{
 	color: rgb(124, 122, 122);
+}
+a:hover{
+	color: rgb(79, 61, 210);
 }
 .historia-mieczzabu
 {
