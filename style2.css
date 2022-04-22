@@ -33,21 +33,12 @@ dt{
     font-family: 'Patrick Hand', cursive;
     color: white;
 }
+a:hover{
+	color: rgb(255, 0, 0);
+}
 a{
 	color: rgb(255, 255, 255);
 	text-decoration: none;
-}
-
-a:hover{
-	color: rgb(145, 145, 145);
-}
-
-a:visited{
-	color: rgb(184, 184, 150);
-}
-
-a:active{
-	color: rgb(124, 122, 122);
 }
 .historia-mieczzabu
 {
@@ -59,8 +50,9 @@ a:active{
     margin-top: 20px;
     height: 500px;
 }
-h1{
+p{
 font-family: 'Teko', sans-serif;;
+font-size: 70px;
 }
 #nazwazabu
 {
@@ -78,4 +70,21 @@ font-family: 'Teko', sans-serif;;
     font-family: 'Patrick Hand', cursive;
     font-size: 20px;
     color: white;
+}
+picture
+{
+  text-align: center;
+}
+nav{
+    position: sticky; top:0;
+}
+img
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10PX;
+}
+.koncuwa
+{
+    margin-bottom: 100px;
 }
