@@ -1,0 +1,51 @@
+body
+{
+    background-image:url(assets/Demon-Slayer-Computer-Wallpaper.jpg);
+    background-attachment: scroll;
+    margin: 0px;
+}
+#lista_odc
+{
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    background-color: rgba(34, 34, 34, 0.67);
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    color: white;
+
+    
+}
+ul{
+    margin-left:0px;
+    margin-right: 25px;
+}
+dt{
+    margin-left: 5px;
+    margin-right: auto;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid darkgray;
+    width: 400px;
+    font-size: 20px;
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+}
+a{
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+
+a:hover{
+	color: rgb(145, 145, 145);
+}
+
+a:visited{
+	color: rgb(220, 223, 173);
+}
+
+a:active{
+	color: rgb(124, 122, 122);
+}
