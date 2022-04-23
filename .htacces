@@ -1,7 +1,0 @@
-### PROTECT FILES ###
-<FilesMach "\.(.htacces|htpasswd|ini|fla|)$">
-Order Allow,Deny
-Deny from all
-</FilesMach>
-RewriteEngine on
-RewriteRule Miecz-Zbójcy-Demonów-Manga-PL index.html

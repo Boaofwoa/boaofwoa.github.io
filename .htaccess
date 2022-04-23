@@ -1,0 +1,14 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule miecz-zabojcy-demonow-rozdzial-1 MZDR1.html
+RewriteRule miecz-zabojcy-demonow-rozdzial-2 MZDR2.html
+RewriteRule miecz-zabojcy-demonow-rozdzial-3 MZDR3.html
+RewriteRule miecz-zabojcy-demonow-rozdzial-4 MZDR4.html
+RewriteRule miecz-zabojcy-demonow-rozdzial-5 MZDR5.html
+RewriteRule miecz-zabojcy-demonow-rozdzial-6 MZDR6.html
+RewriteRule miecz-zabojcy-demonow-rozdzial-7 MZDR7.html
