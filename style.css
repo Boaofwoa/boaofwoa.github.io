@@ -1,6 +1,6 @@
 body
 {
-    background-image:url(assets/Demon-Slayer-Computer-Wallpaper.jpg);
+   background-color: rgb(49, 49, 49);
     background-attachment: fixed;
     margin: 0px;
     background-size: 100%;
@@ -94,20 +94,67 @@ font-family: 'Teko', sans-serif;;
   border: solid black;
    
 }
-.scrollTopButton {
-    width: 64px;
-    height: 64px;
-    position: fixed;
-    visibility: hidden;
-    overflow: hidden;
-    z-index: 99999999;
-    background-image: url('gora.png');
-    right: 30px;
-    bottom: 30px;
-    transition: all 0.5s ease-in-out;
+
+.instal
+{
+    
+    height: 55px;
+    width: 55px;
+    margin-top: 5px;
+    
 }
-.scrollTopButton.show {
-    visibility: visible;
-    cursor: pointer;
-    transition: all 0.5s ease-in-out;
+.naglowek2
+{
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    
+}
+.twiterlogo
+{
+    text-align: right;
+    margin-right: 40px;
+    float: right;
+    
+   
+   
+}
+.instalogo
+{
+    text-align: right;
+    margin-right: 40px;
+    float: right;
+    
+   
+   
+}
+
+.instalogo:hover
+{
+    background-color: rgba(253, 0, 194, 0.303);
+    border-radius: 15px;
+    height: 60px;
+    width: 60px;
+    margin-top: 5px;
+}
+.twiterlogo:hover
+{
+    background-color: rgba(58, 255, 248, 0.297);
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin-top: 5px;
+}
+nav{
+    position: sticky;
+    top: 0;
+    
+    background-color: rgb(34, 33, 33);
+    height: 85px;
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-size: 70px;
+    position: absolute;
+    width: 100%;
 }
