@@ -139,6 +139,13 @@ font-family: 'Teko', sans-serif;;
    
    
 }
+.anstal
+{
+    border-radius: 10px;
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;    
+}
 .instalogo:hover
 {
     background-color: rgba(253, 0, 194, 0.303);
@@ -157,10 +164,10 @@ font-family: 'Teko', sans-serif;;
 }
 .alogo:hover
 {
-    background-color: rgba(58, 255, 248, 0.297);
-    border-radius: 15px;
+    background-color: rgba(45, 97, 96, 0.297);
+    border-radius: 10px;
     height: 60px;
-    width: 60px;
+    width: 65px;
     margin-top: 5px;
 }
 nav{
