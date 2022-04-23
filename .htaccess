@@ -12,3 +12,4 @@ RewriteRule miecz-zabojcy-demonow-rozdzial-4 MZDR4.html
 RewriteRule miecz-zabojcy-demonow-rozdzial-5 MZDR5.html
 RewriteRule miecz-zabojcy-demonow-rozdzial-6 MZDR6.html
 RewriteRule miecz-zabojcy-demonow-rozdzial-7 MZDR7.html
+RewriteRule miecz-zabojcy-demonow index.html
