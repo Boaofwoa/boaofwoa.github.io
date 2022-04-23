@@ -1,9 +1,9 @@
 body
 {
-    background-image:url(../assets/image/Tło/MZD/MZDtlo.jpg);
+    background-image:url(../assets/image/Tło/MZD/1082529.png);
     background-attachment: fixed;
     margin: 0px;
-    background-size: ;
+    background-size: 100%;
     background-repeat: no-repeat;
    
 }
@@ -13,12 +13,12 @@ body
     margin-left: 1200px;
    
     width: 500px;
-    background-color: rgba(167, 242, 160, 0.257);
+    background-color: rgba(123, 123, 123, 0.456);
     text-align: center;
     font-family: 'Teko', sans-serif;
     font-size: 30px;
-    color: white;
-    border: solid 3px rgb(38, 255, 0);
+    color: rgb(0, 0, 0);
+    border: solid 3px rgb(38, 0, 255);
     border-top: 0px;
     border-bottom: 0px;
     
@@ -49,11 +49,11 @@ a:visited{
 	color: rgb(0, 0, 0);
 }
 a:hover{
-	color: rgb(0, 255, 26);
+	color: rgb(255, 213, 0);
 }
 .historia-mieczzabu
 {
-    background-color: rgba(0, 0, 0, 0.637);
+    background-color: rgba(0, 0, 0, 0.786);
     width: 500px;
     margin-left:150px ;
     
@@ -65,14 +65,14 @@ a:hover{
     position: sticky;
   top: 25px;
   border-radius: 10px;
-  border: solid rgb(64, 172, 73)
+  border: solid rgb(38, 0, 255);
   
    
 }
 p{
 font-family: 'Teko', sans-serif;;
 font-size: 70px;
-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
 }
 #nazwazabu
 {
@@ -121,14 +121,15 @@ img
     float: left;
     margin-top: 25px;
     margin-left: 25px;
-    border-color: rgb(77, 176, 80);
+    border-color: rgb(0, 8, 255);
     border-radius: 10px;
     border-width: 3px;
-    background-color: rgba(255, 255, 255, 0.615);
+    background-color: rgba(255, 255, 255, 0.631);
     font-family: 'Teko', sans-serif;
     font-size: 50px;
     position: sticky;
     top: 25px;
+    color: rgb(43, 32, 110);
 }
 
 
