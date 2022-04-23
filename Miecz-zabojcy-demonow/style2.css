@@ -1,6 +1,6 @@
 body
 {
-    background-image:url(../assets/image/Tło/MZD/1082529.png);
+    background-image:url(../assets/image/Tło/MZD/pobrany\ plik\ \(4\).jpg);
     background-attachment: fixed;
     margin: 0px;
     background-size: 100%;
@@ -13,14 +13,15 @@ body
     margin-left: 1200px;
    
     width: 500px;
-    background-color: rgba(123, 123, 123, 0.456);
+    background-color: rgba(227, 232, 185, 0.45);
     text-align: center;
     font-family: 'Teko', sans-serif;
     font-size: 30px;
     color: rgb(0, 0, 0);
-    border: solid 3px rgb(38, 0, 255);
+    border: solid 3px rgb(255, 213, 0);
     border-top: 0px;
     border-bottom: 0px;
+
     
     
 }
@@ -46,14 +47,16 @@ a{
 }
 
 a:visited{
-	color: rgb(113, 35, 186);
+	color: rgb(0, 0, 0);
+    
 }
 a:hover{
-	color: rgb(255, 213, 0);
+	color: rgb(255, 208, 0);
 }
 .historia-mieczzabu
 {
-    background-color: rgba(0, 0, 0, 0.786);
+  align-items: center;
+    background-color: rgba(0, 0, 0, 0.794);
     width: 500px;
     margin-left:150px ;
     
@@ -65,10 +68,11 @@ a:hover{
     position: sticky;
   top: 25px;
   border-radius: 10px;
-  border: solid rgb(38, 0, 255);
+  border: solid rgb(255, 196, 0)
   
    
 }
+
 p{
 font-family: 'Teko', sans-serif;;
 font-size: 70px;
@@ -79,18 +83,21 @@ color: rgb(0, 0, 0);
     font-size: 50px;
     color: rgb(255, 255, 255);
     font-family: 'Teko', sans-serif;
+    opacity: 1;
 }
 .histozabu1
 {
     font-family: 'Patrick Hand', cursive;
     font-size: 20px;
     color: rgb(255, 255, 255);
+    opacity: 1;
 }
 .histozabu2
 {
     font-family: 'Patrick Hand', cursive;
     font-size: 20px;
     color: rgb(255, 255, 255);
+    opacity: 1;
 }
 picture
 {
@@ -114,6 +121,7 @@ img
     position: sticky; top: 25px;
     
 }
+
 .Homebut
 {
     height: 72px;
@@ -121,15 +129,15 @@ img
     float: left;
     margin-top: 25px;
     margin-left: 25px;
-    border-color: rgb(0, 8, 255);
+    border-color: rgb(255, 204, 0);
     border-radius: 10px;
     border-width: 3px;
-    background-color: rgba(255, 255, 255, 0.557);
+    background-color: rgba(255, 255, 255, 0.628);
     font-family: 'Teko', sans-serif;
     font-size: 50px;
     position: sticky;
     top: 25px;
-    color: rgb(43, 32, 110);
+    color: rgb(255, 174, 0);
 }
 
 

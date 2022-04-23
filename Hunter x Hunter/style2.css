@@ -1,6 +1,6 @@
 body
 {
-    background-image:url(../assets/image/Tło/HxH/HxHtlo.png);
+    background-image:url(../assets/image/Tło/HxH/wp4015733-hunter-hunter-the-last-mission-wallpapers.jpg);
     background-attachment: fixed;
     margin: 0px;
     background-size: 100%;
@@ -12,12 +12,12 @@ body
     margin-left: 1200px;
    
     width: 500px;
-    background-color: rgba(239, 193, 225, 0.279);
+    background-color: rgba(164, 225, 144, 0.222);
     text-align: center;
     font-family: 'Teko', sans-serif;
     font-size: 30px;
     color: rgb(0, 0, 0);
-    border: solid 3px rgb(232, 79, 255);
+    border: solid 3px rgb(30, 255, 0);
     border-top: 0px;
     border-bottom: 0px;
     
@@ -52,7 +52,7 @@ a:hover{
 }
 .historia-hunterka
 {
-    background-color: rgba(0, 0, 0, 0.637);
+    background-color: rgba(0, 0, 0, 0.743);
     width: 500px;
     margin-left:150px ;
     
@@ -64,7 +64,7 @@ a:hover{
     position: sticky;
   top: 25px;
   border-radius: 10px;
-  border: solid rgb(246, 89, 225)
+  border: solid rgb(26, 255, 0)
   
    
 }
@@ -120,7 +120,7 @@ img
     float: left;
     margin-top: 25px;
     margin-left: 25px;
-    border-color: rgb(255, 153, 250);
+    border-color: rgb(9, 255, 0);
     border-radius: 10px;
     border-width: 3px;
     background-color: rgba(255, 255, 255, 0.615);
@@ -128,7 +128,7 @@ img
     font-size: 50px;
     position: sticky;
     top: 25px;
-    color: blueviolet;
+    color: rgb(114, 162, 114);
 }
 
 
