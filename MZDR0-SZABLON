@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rozdział 2</title>
-    <link href="style2.css" rel="stylesheet" type="text/css">
+    <title>MZD:Rozdział 2</title>
+    <link href="style3.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Teko:wght@300&display=swap" rel="stylesheet"><link rel="icon" href="icon.png">
@@ -20,34 +20,10 @@ margin-top: 0px;
 padding: 1px;
 ">
 
-<button 
-    style="
-      float: left;
-    border-radius: 5px;
-    background-color:rgba(122, 223, 137, 0.668) ;
-    height: 40px;
-    width: 170px;
-    font-family: 'Patrick Hand', cursive;
-    font-size: 20px;
-    margin-top: 20px;
-    border-color: rgba(240, 248, 255, 0);
-    
-    
-    "><a href="MZDR1.html">Poprzedni Rozdział</a> </button> <a href="index.html" >Miecz Zabójcy Demonów, Rozdział 2</a>  
-    <button 
-    style="
-      float: right;
-    border-radius: 5px;
-    background-color:rgba(0, 174, 255, 0.668) ;
-    height: 40px;
-    width: 170px;
-    font-family: 'Patrick Hand', cursive;
-    font-size: 20px;
-    margin-top: 20px;
-    border-color: rgba(240, 248, 255, 0);
-    
-    
-    "><a href="MZDR3.html">Następny Rozdział</a>
+<a href="MZDR1.html"><button  style="color:rgb(42, 42, 42);"  class="lewygu"><b>Wstecz</b></button><a href="MZDL.html" ><b>
+Miecz Zabójcy Demonów, Rozdział 2
+    </b></a>  
+    <a href="MZDR3.html"><button style="color: white;" class="prawygu">Następny Rozdział</button></a>
 </nav>
 </head>
 <body>
