@@ -179,6 +179,7 @@ nav{
     color: white;
     font-family: 'Teko', sans-serif;
     font-size: 70px;
-    position: absolute;
+    position: sticky;
+    top: 0;
     width: 100%;
 }
