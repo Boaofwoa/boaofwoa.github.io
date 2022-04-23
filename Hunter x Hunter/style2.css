@@ -1,0 +1,134 @@
+body
+{
+    background-image:url(../assets/image/Tło/HxH/HxHtlo.png);
+    background-attachment: fixed;
+    margin: 0px;
+    background-size: 100%;
+   
+}
+#lista_odc
+{
+    padding: 20px;
+    margin-left: 1200px;
+   
+    width: 500px;
+    background-color: rgba(239, 193, 225, 0.279);
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    border: solid 3px rgb(232, 79, 255);
+    border-top: 0px;
+    border-bottom: 0px;
+    
+    
+}
+ul{
+    margin-left:0px;
+    margin-right: 25px;
+}
+dt{
+    margin-left: 5px;
+    margin-right: auto;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 400px;
+    font-size: 20px;
+    font-family: 'Patrick Hand', cursive;
+    color: rgb(0, 0, 0);
+}
+
+a{
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+
+a:visited{
+	color: rgb(0, 0, 0);
+}
+a:hover{
+	color: rgb(247, 150, 244);
+}
+.historia-hunterka
+{
+    background-color: rgba(0, 0, 0, 0.637);
+    width: 500px;
+    margin-left:150px ;
+    
+    padding: 10px;
+    margin-top: 150px;
+    height: 580px;
+    float: left;
+    position: -webkit-sticky;
+    position: sticky;
+  top: 25px;
+  border-radius: 10px;
+  border: solid rgb(246, 89, 225)
+  
+   
+}
+p{
+font-family: 'Teko', sans-serif;;
+font-size: 70px;
+color: rgb(255, 255, 255);
+}
+#nazwahunte
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-family: 'Teko', sans-serif;
+}
+.histohunte1
+{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.histohunte2
+{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+picture
+{
+  text-align: center;
+}
+nav{
+    position: sticky; top:0;
+}
+img
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10PX;
+}
+.koncuwa
+{
+    margin-bottom: 100px;
+}
+.porwot
+{
+    position: sticky; top: 25px;
+    
+}
+.Homebut
+{
+    height: 72px;
+    width: 300px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+    border-color: rgb(255, 153, 250);
+    border-radius: 10px;
+    border-width: 3px;
+    background-color: rgba(255, 255, 255, 0.615);
+    font-family: 'Teko', sans-serif;
+    font-size: 50px;
+    position: sticky;
+    top: 25px;
+    color: blueviolet;
+}
+
+

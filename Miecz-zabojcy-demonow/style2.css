@@ -1,9 +1,10 @@
 body
 {
-    background-image:url(../assets/image/Tło/Demon-Slayer-Computer-Wallpaper.jpg);
+    background-image:url(../assets/image/Tło/MZD/MZDtlo.jpg);
     background-attachment: fixed;
     margin: 0px;
-    background-size: 100%;
+    background-size: ;
+    background-repeat: no-repeat;
    
 }
 #lista_odc
@@ -12,12 +13,12 @@ body
     margin-left: 1200px;
    
     width: 500px;
-    background-color: rgba(0, 0, 0, 0.67);
+    background-color: rgba(167, 242, 160, 0.257);
     text-align: center;
     font-family: 'Teko', sans-serif;
     font-size: 30px;
     color: white;
-    border: solid 3px white;
+    border: solid 3px rgb(38, 255, 0);
     border-top: 0px;
     border-bottom: 0px;
     
@@ -32,23 +33,23 @@ dt{
     margin-right: auto;
     text-align: center;
     padding: 5px;
-    border: 1px solid darkgray;
+    border: 1px solid rgb(0, 0, 0);
     width: 400px;
     font-size: 20px;
     font-family: 'Patrick Hand', cursive;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 a{
-	color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
 	text-decoration: none;
 }
 
 a:visited{
-	color: rgb(141, 144, 218);
+	color: rgb(0, 0, 0);
 }
 a:hover{
-	color: rgb(82, 72, 157);
+	color: rgb(0, 255, 26);
 }
 .historia-mieczzabu
 {
@@ -64,7 +65,7 @@ a:hover{
     position: sticky;
   top: 25px;
   border-radius: 10px;
-  border: solid rgb(255, 255, 255)
+  border: solid rgb(64, 172, 73)
   
    
 }
@@ -120,7 +121,7 @@ img
     float: left;
     margin-top: 25px;
     margin-left: 25px;
-    border-color: rgb(75, 75, 75);
+    border-color: rgb(77, 176, 80);
     border-radius: 10px;
     border-width: 3px;
     background-color: rgba(255, 255, 255, 0.615);

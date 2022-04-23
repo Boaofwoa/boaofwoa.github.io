@@ -1,9 +1,10 @@
 body
 {
-    background-image:url(assets/image/Tło/Demon-Slayer-Computer-Wallpaper.jpg);
+    background-image:url(assets/image/Tło/MZDtlo.jpg);
     background-attachment: fixed;
     margin: 0px;
     background-size: 100%;
+    background-repeat: no-repeat;
    
 }
 img{
