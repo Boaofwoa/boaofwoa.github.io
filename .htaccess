@@ -1,3 +1,0 @@
-# Rewrite --- miecz-zabojcy-demonow-rozdzial-1 => MZDR1.html
- 
-RewriteRule ^miecz-zabojcy-demonow-rozdzial-1$ /MZDR1.html?&%{QUERY_STRING}
