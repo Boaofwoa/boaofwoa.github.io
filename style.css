@@ -63,6 +63,7 @@ font-family: 'Teko', sans-serif;;
 {
     font-size: 30px;
     color: white;
+    font-family: 'Teko', sans-serif;
 }
 .histozabu1
 {
@@ -182,4 +183,40 @@ nav{
     position: sticky;
     top: 0;
     width: 100%;
+}
+.MZDS
+{
+    height: 820px;
+    width: 470px;
+    margin-left: 100px;
+    margin-top: 90px;
+    background-color: rgba(67, 67, 67, 0.523);
+    text-align: center;
+    border-radius: 15px;
+    
+    font-family: 'Patrick Hand', cursive;
+    font-size: 25px;
+    margin-bottom: 100px;
+    border: solid black 3px;
+}
+p{
+    color: white;
+
+}
+p1{
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-size:30px ;
+
+}
+.MZDS:hover
+{
+    background-color: rgba(111, 111, 111, 0.419);
+    
+}
+.napisy
+{
+    text-align: center;
+    height: 120px;
+    width: 440px;
 }
