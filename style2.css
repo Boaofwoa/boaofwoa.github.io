@@ -3,6 +3,8 @@ body
     background-image:url(assets/Demon-Slayer-Computer-Wallpaper.jpg);
     background-attachment: fixed;
     margin: 0px;
+    background-size: 100%;
+   
 }
 #lista_odc
 {

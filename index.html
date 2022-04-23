@@ -10,8 +10,44 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Teko:wght@300&display=swap" rel="stylesheet">
 <link rel="icon" href="icon.png">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+    $(function(){
+ 
+ $(window).scroll(function() {
+     if ($(window).scrollTop() > 100) {
+         $('.scrollTopButton').addClass('show');
+     } else {
+         $('.scrollTopButton').removeClass('show');
+     }
+ });
+
+ $('.scrollTopButton').click(function() {
+     $('body').animate({scrollTop: 0}, 400, 'linear');
+ });
+});
+</script>
+
+
+
 </head>
 <body>
+    <div class="historia-mieczzabu">
+    
+        <h1 id="nazwazabu">
+            O Miecz Zabójcy Demonów
+        </h1>
+        <br>
+        <p class="histozabu1">
+            Tanjirou Kamado mieszka ze swoją zubożałą rodziną na odległej górze. Jako najstarszy z rodzeństwa wziął na siebie odpowiedzialność za zapewnienie rodzinie środków do życia po śmierci ojca. W mroźny zimowy dzień schodzi do pobliskiej wioski, żeby sprzedać trochę węgla drzewnego. Gdy zapada zmierzch, zostaje zmuszony do spędzenia nocy w domu ciekawskiego człowieka, który ostrzega go przed dziwnymi stworzeniami, które wędrują po nocy: złowrogimi demonami, które pragną ludzkiego mięsa.
+        </p>
+        <br>
+        <p class="histozabu2">
+            Kiedy w końcu udaje się do domu, najgorszy koszmar Tanjirou spełnia się. Cała jego rodzina została brutalnie wymordowana, z wyjątkiem siostry Nezuko, która zamieniła się w mięsożernego demona. Pogrążony w nienawiści i rozpaczy Tanjirou desperacko próbuje powstrzymać Nezuko przed atakowaniem innych ludzi, wyruszając w podróż, aby pomścić swoją rodzinę i znaleźć sposób, aby zmienić swoją ukochaną siostrę z powrotem w człowieka.
+        </p>
+    </div>
+
+    <span class="scrollTopButton"></span>
+
     <div id="lista_odc">
         <ul> <h1>Miecz Zabójcy Demonów </h1>
             <dt> <a class="a1" href="MZDR1.html"> Miecz Zabójcy Demonów. Rozdział 1</a></dt>
@@ -221,21 +257,9 @@
             <dt> Miecz Zabójcy Demonów. Rozdział 205</dt>
         </ul>
     </div>
-    <footer>
-        <div class="historia-mieczzabu">
-            <h1 id="nazwazabu">
-                O Miecz Zabójcy Demonów
-            </h1>
-            <br>
-            <p class="histozabu1">
-                Tanjirou Kamado mieszka ze swoją zubożałą rodziną na odległej górze. Jako najstarszy z rodzeństwa wziął na siebie odpowiedzialność za zapewnienie rodzinie środków do życia po śmierci ojca. W mroźny zimowy dzień schodzi do pobliskiej wioski, żeby sprzedać trochę węgla drzewnego. Gdy zapada zmierzch, zostaje zmuszony do spędzenia nocy w domu ciekawskiego człowieka, który ostrzega go przed dziwnymi stworzeniami, które wędrują po nocy: złowrogimi demonami, które pragną ludzkiego mięsa.
-            </p>
-            <br>
-            <p class="histozabu2">
-                Kiedy w końcu udaje się do domu, najgorszy koszmar Tanjirou spełnia się. Cała jego rodzina została brutalnie wymordowana, z wyjątkiem siostry Nezuko, która zamieniła się w mięsożernego demona. Pogrążony w nienawiści i rozpaczy Tanjirou desperacko próbuje powstrzymać Nezuko przed atakowaniem innych ludzi, wyruszając w podróż, aby pomścić swoją rodzinę i znaleźć sposób, aby zmienić swoją ukochaną siostrę z powrotem w człowieka.
-            </p>
-        </div>
+    
+   
        
-    </footer>
+    
 </body>
 </html>
