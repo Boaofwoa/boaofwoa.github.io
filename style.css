@@ -18,93 +18,20 @@ body
 html{
     scroll-behavior: smooth;
 }
-#lista_odc
-{
-    padding: 20px;
-    margin-left: 1200px;
-   
-    width: 500px;
-    background-color: rgba(34, 34, 34, 0.67);
-    text-align: center;
-    font-family: 'Teko', sans-serif;
-    font-size: 30px;
-    color: white;
-    
-    
-}
-ul{
-    margin-left:0px;
-    margin-right: 25px;
-}
-dt{
-    margin-left: 5px;
-    margin-right: auto;
-    text-align: center;
-    padding: 5px;
-    border: 1px solid darkgray;
-    width: 400px;
-    font-size: 20px;
-    font-family: 'Patrick Hand', cursive;
-    color: white;
-}
-a{
-	color: rgb(255, 255, 255);
-	text-decoration: none;
-}
 
 
-
-a:visited{
-	color: rgb(235, 229, 156);
-}
-
-a:active{
-	color: rgb(124, 122, 122);
-}
-a:hover{
-	color: rgb(79, 61, 210);
-}
 
 h1{
 font-family: 'Teko', sans-serif;;
 }
-#nazwazabu
-{
-    font-size: 30px;
-    color: white;
-    font-family: 'Teko', sans-serif;
-}
-.histozabu1
-{
-    font-family: 'Patrick Hand', cursive;
-    font-size: 20px;
-    color: white;
-}
-.histozabu2
-{
-    font-family: 'Patrick Hand', cursive;
-    font-size: 20px;
-    color: white;
-}
 
-.historia-mieczzabu
+a:visited
 {
-    background-color: rgba(34, 34, 34, 0.67);
-    width: 500px;
-    margin-left:350px ;
-    
-    padding: 10px;
-    margin-top: 150px;
-    height: 600px;
-    float: left;
-    position: -webkit-sticky;
-    position: sticky;
-  top: 4rem;
-  border-radius: 10px;
-  border: solid black;
-   
+    color:none;
 }
-
+a{
+    text-decoration: none;
+}
 .instal
 {
     
@@ -209,7 +136,7 @@ nav{
     font-size: 25px;
     margin-bottom: 100px;
     border: solid black 3px;
-    
+    transition: all 0.3s;
 }
 .HxHS
 {
@@ -225,7 +152,7 @@ nav{
     font-size: 25px;
     margin-bottom: 100px;
     border: solid black 3px;
-    
+    transition: all 0.3s;
 }
 .SxF
 {
@@ -241,11 +168,14 @@ nav{
     font-size: 25px;
     margin-bottom: 100px;
     border: solid black 3px;
+    transition: all 0.3s;
     
 }
 .SxF:hover
 {
-    background-color: rgba(111, 111, 111, 0.419);
+    box-shadow: rgba(5, 159, 118, 0.166) -5px 5px, rgba(1, 199, 234, 0.172) -10px 10px, rgba(6, 249, 152, 0.166) -15px 15px, rgba(0, 255, 247, 0.166) -20px 20px, rgba(0, 0, 0, 0.45) -25px 25px;
+    margin-top: 1px;
+    background-color: rgb(118, 118, 118);
 }
 p{
     color: white;
@@ -259,14 +189,19 @@ p1{
 }
 .MZDS:hover
 {
-    background-color: rgba(111, 111, 111, 0.419);
+    box-shadow: rgba(242, 255, 0, 0.308) -5px 5px, rgba(255, 255, 0, 0.354) -10px 10px, rgba(234, 255, 0, 0.348) -15px 15px, rgba(191, 175, 3, 0.331) -20px 20px, rgba(0, 0, 0, 0.45) -25px 25px;
+    margin-top: 1px;
+    background-color: rgb(118, 118, 118);
     
 }
 .HxHS:hover
 {
-    background-color: rgba(111, 111, 111, 0.419);
-    
+ 
+    box-shadow: rgba(7, 70, 34, 0.587) -5px 5px, rgba(43, 161, 39, 0.157) -10px 10px, rgba(52, 166, 39, 0.2) -15px 15px, rgba(78, 239, 4, 0.26) -20px 20px, rgba(0, 0, 0, 0.45) -25px 25px;
+    margin-top: 1px;
+    background-color: rgb(118, 118, 118);
 }
+
 .napisy
 {
     text-align: center;
