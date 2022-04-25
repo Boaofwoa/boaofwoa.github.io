@@ -1,25 +1,27 @@
 body
 {
-    background-image:url(../assets/image/Tło/HxH/wp4015733-hunter-hunter-the-last-mission-wallpapers.jpg);
+    background-image:url(../assets/image/Tło/SxF/SxFtlo.png);
     background-attachment: fixed;
     margin: 0px;
     background-size: 100%;
+    background-repeat: no-repeat;
    
 }
 #lista_odc
 {
     padding: 20px;
     margin-left: 1200px;
-   
+   margin-top: 0px;
     width: 500px;
-    background-color: rgba(164, 225, 144, 0.222);
+    background-color: rgba(162, 242, 183, 0.273);
     text-align: center;
     font-family: 'Teko', sans-serif;
     font-size: 30px;
     color: rgb(0, 0, 0);
-    border: solid 3px rgb(30, 255, 0);
+    border: solid 3px rgb(36, 108, 75);
     border-top: 0px;
     border-bottom: 0px;
+
     
     
 }
@@ -46,50 +48,56 @@ a{
 
 a:visited{
 	color: rgb(0, 0, 0);
+    
 }
 a:hover{
-	color: rgb(247, 150, 244);
+	color: rgb(0, 255, 51);
 }
-.historia-hunterka
+.historia-fami
 {
-    background-color: rgba(0, 0, 0, 0.743);
+  align-items: center;
+    background-color: rgba(0, 0, 0, 0.794);
     width: 500px;
- 
+    
     
     padding: 10px;
-   
-    height: 550px;
+    margin-top: 10px;
+    height: 445px;
     float: left;
     position: -webkit-sticky;
     position: sticky;
   top: 25px;
   border-radius: 10px;
-  border: solid rgb(26, 255, 0)
+  border: solid 3px rgb(36, 108, 75);
   
    
 }
+
 p{
 font-family: 'Teko', sans-serif;;
 font-size: 70px;
-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
 }
-#nazwahunte
+#nazwafami
 {
     font-size: 50px;
     color: rgb(255, 255, 255);
     font-family: 'Teko', sans-serif;
+    opacity: 1;
 }
-.histohunte1
+.histofami1
 {
     font-family: 'Patrick Hand', cursive;
     font-size: 20px;
     color: rgb(255, 255, 255);
+    opacity: 1;
 }
-.histohunte2
+.histofami2
 {
     font-family: 'Patrick Hand', cursive;
     font-size: 20px;
     color: rgb(255, 255, 255);
+    opacity: 1;
 }
 picture
 {
@@ -106,13 +114,14 @@ img
 }
 .koncuwa
 {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .porwot
 {
     position: sticky; top: 25px;
     
 }
+
 .Homebut
 {
     height: 72px;
@@ -120,17 +129,16 @@ img
     float: left;
     margin-top: 25px;
     margin-left: 25px;
-    border-color: rgb(9, 255, 0);
+    border: solid 3px rgb(36, 108, 75);
     border-radius: 10px;
     border-width: 3px;
-    background-color: rgba(255, 255, 255, 0.615);
+    background-color: rgba(255, 255, 255, 0.279);
     font-family: 'Teko', sans-serif;
     font-size: 50px;
     position: sticky;
     top: 25px;
-    color: rgb(114, 162, 114);
+    color: rgb(9, 75, 33);
 }
-
 .Homebut1
 {
     height: 80px;
@@ -167,5 +175,7 @@ img
   
 
 }
+
+
 
 
