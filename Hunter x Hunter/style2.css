@@ -4,6 +4,8 @@ body
     background-attachment: fixed;
     margin: 0px;
     background-size: 100%;
+    background-repeat: no-repeat;
+    
    
 }
 #lista_odc
