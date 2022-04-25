@@ -1,6 +1,6 @@
 body
 {
-    background-image:url(../assets/image/Tło/HxH/wp4015733-hunter-hunter-the-last-mission-wallpapers.jpg);
+    background-image:url(../assets/image/Tło/HxH/wp4015696-hunter-hunter-the-last-mission-wallpapers.jpg);
     background-attachment: fixed;
     margin: 0px;
     background-size: 100%;
@@ -14,12 +14,12 @@ body
     margin-left: 1200px;
    
     width: 500px;
-    background-color: rgba(164, 225, 144, 0.222);
+    background-color: rgba(135, 93, 168, 0.222);
     text-align: center;
     font-family: 'Teko', sans-serif;
     font-size: 30px;
     color: rgb(0, 0, 0);
-    border: solid 3px rgb(30, 255, 0);
+    border: solid 3px rgb(179, 0, 255);
     border-top: 0px;
     border-bottom: 0px;
     
@@ -66,13 +66,13 @@ a:hover{
     position: sticky;
   top: 25px;
   border-radius: 10px;
-  border: solid rgb(26, 255, 0);
+  border: solid 3px rgb(179, 0, 255);
   transition: all 0.3s;
    
 }
 .historia-hunterka:hover{
     margin-top: -15px;
-      box-shadow: rgba(0, 255, 38, 0.4) 0px 5px, rgba(0, 255, 60, 0.3) 0px 10px, rgba(0, 255, 21, 0.2) 0px 15px, rgba(0, 255, 60, 0.1) 0px 20px, rgba(0, 255, 47, 0.05) 0px 25px;
+      box-shadow: rgba(185, 90, 226, 0.4) 0px 5px, rgba(185, 90, 226, 0.3) 0px 10px, rgba(185, 90, 226, 0.2) 0px 15px, rgba(185, 90, 226, 0.1) 0px 20px, rgba(185, 90, 226, 0.05) 0px 25px;
   }
 p{
 font-family: 'Teko', sans-serif;;
@@ -126,16 +126,17 @@ img
     float: left;
     margin-top: 25px;
     margin-left: 25px;
-    border-color: rgb(9, 255, 0);
+    border-color: rgb(179, 0, 255);
     border-radius: 10px;
     border-width: 3px;
-    background-color: rgba(255, 255, 255, 0.615);
+    background-color: rgba(255, 255, 255,0.468);
     font-family: 'Teko', sans-serif;
     font-size: 50px;
     position: sticky;
     top: 25px;
-    color: rgb(114, 162, 114);
-    transition: all 0.5s;
+    color: rgba(185, 90, 226, 0.728);
+    transition: all 0.4s;
+    
 }
 
 .Homebut1
@@ -147,7 +148,7 @@ img
     align-items: center;
     border: solid 3px rgb(0, 0, 0);
     border-radius: 10px;
-    border-width: 3px;
+    border-width: 5px;
     background-color: rgb(255, 0, 0);
     font-family: 'Teko', sans-serif;
     font-size: 60px;
@@ -155,6 +156,7 @@ img
     top: 25px;
     color: rgb(0, 0, 0);
     margin-bottom: 40px;
+    
     
 }
 .Homebut1:focus
@@ -186,9 +188,11 @@ img
     color: black;
     border-color: rgb(0, 0, 0);
    
+   
 }
 .Homebut:focus
 {
+  
     background-color: rgb(255, 255, 255);
     color: black;
     border-color: rgb(0, 0, 0);

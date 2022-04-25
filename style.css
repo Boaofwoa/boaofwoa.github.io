@@ -214,7 +214,7 @@ p1{
 .HxHS:hover
 {
  
-    box-shadow: rgba(7, 70, 34, 0.308) -5px 5px, rgba(43, 161, 39, 0.354) -10px 10px, rgba(52, 166, 39, 0.348) -15px 15px, rgba(78, 239, 4, 0.331) -20px 20px, rgba(0, 0, 0, 0.45) -25px 25px;
+    box-shadow: rgba(185, 90, 226, 0.4) -5px 5px, rgba(185, 90, 226, 0.3) -10px 10px, rgba(185, 90, 226, 0.2) -15px 15px, rgba(185, 90, 226, 0.1) -20px 20px, rgba(185, 90, 226, 0.05) -25px 25px;
     margin-top: 1px;
     background-color: rgb(118, 118, 118);
     margin-top: 125px;

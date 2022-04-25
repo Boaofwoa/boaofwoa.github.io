@@ -132,15 +132,15 @@ img
     float: left;
     margin-top: 25px;
     margin-left: 25px;
-    border: solid 3px rgb(36, 108, 75);
+    border: solid 3px rgb(31, 223, 137);
     border-radius: 10px;
     border-width: 3px;
-    background-color: rgba(255, 255, 255, 0.279);
+    background-color: rgba(255, 255, 255, 0.468);
     font-family: 'Teko', sans-serif;
     font-size: 50px;
     position: sticky;
     top: 25px;
-    color: rgb(9, 75, 33);
+    color: rgb(88, 193, 122);
     transition: all 0.5s;
 }
 .Homebut1
@@ -191,6 +191,7 @@ img
 
 .Homebut:hover
 {
+  
     background-color: aliceblue;
     color: black;
     border-color: rgb(0, 0, 0);
