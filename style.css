@@ -152,7 +152,7 @@ nav{
     font-size: 25px;
     margin-bottom: 100px;
     border: solid black 3px;
-    transition: all 0.3s;
+    transition: all 0.4s;
 }
 .HxHS
 {
@@ -168,7 +168,7 @@ nav{
     font-size: 25px;
     margin-bottom: 100px;
     border: solid black 3px;
-    transition: all 0.3s;
+    transition: all 0.4s;
 }
 .SxF
 {
@@ -184,7 +184,7 @@ nav{
     font-size: 25px;
     margin-bottom: 100px;
     border: solid black 3px;
-    transition: all 0.3s;
+    transition: all 0.4s;
     
 }
 .SxF:hover
