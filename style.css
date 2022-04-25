@@ -53,8 +53,11 @@ a{
     text-align: right;
     margin-right: 40px;
     float: right;
+    border-radius: 15px;
+    transition: all 0.3s;
+    height: 60px;
+    width: 60px;
     
-   
    
 }
 .instalogo
@@ -62,8 +65,18 @@ a{
     text-align: right;
     margin-right: 40px;
     float: right;
-    
+    border-radius: 15px;
+    transition: all 0.3s;
+    height: 60px;
+    width: 60px;
    
+}
+.instal:hover
+{
+    border-radius: 15px;
+    transition: all 0.3s;
+    height: 50px;
+    width: 50px;
    
 }
 .alogo
@@ -72,7 +85,9 @@ a{
     margin-right: 40px;
     float: right;
     border-radius: 15px;
-    
+    transition: all 0.3s;
+    height: 60px;
+    width: 60px;
    
    
 }
@@ -81,7 +96,8 @@ a{
     border-radius: 10px;
     height: 60px;
     width: 60px;
-    margin-top: 10px;    
+    margin-top: 10px; 
+       
 }
 .instalogo:hover
 {
@@ -89,23 +105,23 @@ a{
     border-radius: 15px;
     height: 60px;
     width: 60px;
-    margin-top: 5px;
+    margin-top: 7px;
 }
 .twiterlogo:hover
 {
     background-color: rgba(58, 255, 248, 0.297);
-    border-radius: 50%;
     height: 60px;
     width: 60px;
-    margin-top: 5px;
+    margin-top: 7px;
+    
 }
+
 .alogo:hover
 {
-    background-color: rgba(45, 97, 96, 0.297);
-    border-radius: 10px;
+    background-color: rgba(21, 76, 74, 0.297);
     height: 60px;
-    width: 65px;
-    margin-top: 5px;
+    width: 60px;
+    margin-top: 7px; 
 }
 nav{
    
@@ -173,9 +189,10 @@ nav{
 }
 .SxF:hover
 {
-    box-shadow: rgba(5, 159, 118, 0.166) -5px 5px, rgba(1, 199, 234, 0.172) -10px 10px, rgba(6, 249, 152, 0.166) -15px 15px, rgba(0, 255, 247, 0.166) -20px 20px, rgba(0, 0, 0, 0.45) -25px 25px;
+    box-shadow: rgba(5, 159, 118, 0.308) -5px 5px, rgba(1, 199, 234, 0.354) -10px 10px, rgba(6, 249, 152, 0.348) -15px 15px, rgba(0, 255, 247, 0.331) -20px 20px, rgba(0, 0, 0, 0.45) -25px 25px;
     margin-top: 1px;
     background-color: rgb(118, 118, 118);
+    margin-top: 125px;
 }
 p{
     color: white;
@@ -190,16 +207,17 @@ p1{
 .MZDS:hover
 {
     box-shadow: rgba(242, 255, 0, 0.308) -5px 5px, rgba(255, 255, 0, 0.354) -10px 10px, rgba(234, 255, 0, 0.348) -15px 15px, rgba(191, 175, 3, 0.331) -20px 20px, rgba(0, 0, 0, 0.45) -25px 25px;
-    margin-top: 1px;
+    margin-top: 125px;
     background-color: rgb(118, 118, 118);
     
 }
 .HxHS:hover
 {
  
-    box-shadow: rgba(7, 70, 34, 0.587) -5px 5px, rgba(43, 161, 39, 0.157) -10px 10px, rgba(52, 166, 39, 0.2) -15px 15px, rgba(78, 239, 4, 0.26) -20px 20px, rgba(0, 0, 0, 0.45) -25px 25px;
+    box-shadow: rgba(7, 70, 34, 0.308) -5px 5px, rgba(43, 161, 39, 0.354) -10px 10px, rgba(52, 166, 39, 0.348) -15px 15px, rgba(78, 239, 4, 0.331) -20px 20px, rgba(0, 0, 0, 0.45) -25px 25px;
     margin-top: 1px;
     background-color: rgb(118, 118, 118);
+    margin-top: 125px;
 }
 
 .napisy

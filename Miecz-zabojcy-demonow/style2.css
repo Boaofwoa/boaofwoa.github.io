@@ -68,9 +68,14 @@ a:hover{
     position: sticky;
   top: 25px;
   border-radius: 10px;
-  border: solid rgb(255, 196, 0)
+  border: solid rgb(255, 196, 0);
+  transition: all 0.3s;
   
    
+}
+.historia-mieczzabu:hover{
+  margin-top: 95px;
+    box-shadow: rgba(240, 233, 46, 0.4) 0px 5px, rgba(200, 255, 0, 0.3) 0px 10px, rgba(246, 255, 0, 0.2) 0px 15px, rgba(255, 221, 0, 0.1) 0px 20px, rgba(246, 255, 0, 0.05) 0px 25px;
 }
 
 p{
@@ -132,12 +137,30 @@ img
     border-color: rgb(255, 204, 0);
     border-radius: 10px;
     border-width: 3px;
-    background-color: rgba(255, 255, 255, 0.628);
+    background-color: rgba(255, 255, 255, 0.468);
     font-family: 'Teko', sans-serif;
     font-size: 50px;
     position: sticky;
     top: 25px;
     color: rgb(255, 174, 0);
+    transition: all 0.5s;
 }
+.Homebut:focus
+{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-color: rgb(0, 0, 0);
+  margin-top: 20px;
+    box-shadow: rgba(240, 233, 46, 0.4) -10px 10px
+}
+
+.Homebut:hover
+{
+    background-color: aliceblue;
+    color: black;
+    border-color: rgb(0, 0, 0);
+   
+}
+
 
 

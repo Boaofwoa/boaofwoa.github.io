@@ -66,10 +66,14 @@ a:hover{
     position: sticky;
   top: 25px;
   border-radius: 10px;
-  border: solid rgb(26, 255, 0)
-  
+  border: solid rgb(26, 255, 0);
+  transition: all 0.3s;
    
 }
+.historia-hunterka:hover{
+    margin-top: -20px;
+      box-shadow: rgba(0, 255, 38, 0.4) 0px 5px, rgba(0, 255, 60, 0.3) 0px 10px, rgba(0, 255, 21, 0.2) 0px 15px, rgba(0, 255, 60, 0.1) 0px 20px, rgba(0, 255, 47, 0.05) 0px 25px;
+  }
 p{
 font-family: 'Teko', sans-serif;;
 font-size: 70px;
@@ -131,6 +135,7 @@ img
     position: sticky;
     top: 25px;
     color: rgb(114, 162, 114);
+    transition: all 0.3s;
 }
 
 .Homebut1
@@ -149,6 +154,12 @@ img
   
     top: 25px;
     color: rgb(0, 0, 0);
+    margin-bottom: 25px;
+    
+}
+.Homebut1:focus
+{
+    margin-top: 20px;
 }
 .homeinfo
 {
@@ -169,5 +180,21 @@ img
   
 
 }
+.Homebut:hover
+{
+    background-color: aliceblue;
+    color: black;
+    border-color: rgb(0, 0, 0);
+   
+}
+.Homebut:focus
+{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-color: rgb(0, 0, 0);
+  margin-top: 20px;
+    box-shadow: rgba(0, 255, 76, 0.4) -5px 5px
+}
+
 
 
