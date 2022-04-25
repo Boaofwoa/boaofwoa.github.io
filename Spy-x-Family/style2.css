@@ -69,10 +69,13 @@ a:hover{
   top: 25px;
   border-radius: 10px;
   border: solid 3px rgb(36, 108, 75);
-  
+  transition: all 0.3s;
    
 }
-
+.historia-fami:hover{
+    margin-top: -15px;
+      box-shadow: rgba(0, 255, 174, 0.4) 0px 5px, rgba(0, 255, 174, 0.3) 0px 10px, rgba(0, 255, 174, 0.2) 0px 15px, rgba(0, 255, 174, 0.1) 0px 20px, rgba(0, 255, 174, 0.05) 0px 25px;
+  }
 p{
 font-family: 'Teko', sans-serif;;
 font-size: 70px;
@@ -138,6 +141,7 @@ img
     position: sticky;
     top: 25px;
     color: rgb(9, 75, 33);
+    transition: all 0.5s;
 }
 .Homebut1
 {
@@ -155,6 +159,7 @@ img
   
     top: 25px;
     color: rgb(0, 0, 0);
+    margin-bottom: 30px;
 }
 .homeinfo
 {
@@ -175,6 +180,24 @@ img
   
 
 }
+.Homebut:focus
+{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-color: rgb(0, 0, 0);
+  margin-top: 20px;
+    box-shadow: rgba(0, 255, 132, 0.4) -5px 5px
+}
+
+.Homebut:hover
+{
+    background-color: aliceblue;
+    color: black;
+    border-color: rgb(0, 0, 0);
+   
+}
+
+
 
 
 
