@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MZD:Rozdział 11</title>
+    <title>MZD:Rozdział 50</title>
     <link href="style3.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,35 +20,39 @@ margin-top: 0px;
 padding: 1px;
 ">
 
-<a href="MZDR10.html"><button  style="color:rgb(42, 42, 42);"  class="lewygu"><b>Poprzedni Rozdział</b></button><a href="../MZDL.html" ><b>
-Miecz Zabójcy Demonów, Rozdział 11
+<a href="MZDR49.html"><button    class="lewygu"><b>Poprzedni Rozdział</b></button><a href="../MZDL.html" ><b>
+Miecz Zabójcy Demonów, Rozdział 50
     </b></a>  
-    <a href="MZDR12.html"><button style="color: white;" class="prawygu">Następny Rozdział</button></a>
+    <a href="MZDR51.html"><button  class="prawygu"><b>Następny Rozdział</b></button></a>
 </nav>
 </head>
 <body>
     <div style="text-align: center; margin-top:50px;">
         <picture>
-            <img  src="R/mzdr11/1.jpg" alt=""><br>
-            <img  src="R/mzdr11/2.jpg" alt=""><br>
-            <img  src="R/mzdr11/3.jpg" alt=""><br>
-            <img  src="R/mzdr11/4.jpg" alt=""><br>
-            <img  src="R/mzdr11/5.jpg" alt=""><br>
-            <img  src="R/mzdr11/6.jpg" alt=""><br>
-            <img  src="R/mzdr11/7.jpg" alt=""><br>
-            <img  src="R/mzdr11/8.jpg" alt=""><br>
-            <img  src="R/mzdr11/9.jpg" alt=""><br>
-            <img  src="R/mzdr11/10.jpg" alt=""><br>
-            <img  src="R/mzdr11/11.jpg" alt=""><br>
-            <img  src="R/mzdr11/12.jpg" alt=""><br>
-            <img  src="R/mzdr11/13.jpg" alt=""><br>
-            <img  src="R/mzdr11/14.jpg" alt=""><br>
-            <img  src="R/mzdr11/15.jpg" alt=""><br>
-            <img  src="R/mzdr11/16.jpg" alt=""><br>
-            <img  src="R/mzdr11/17.jpg" alt=""><br>
-            <img  src="R/mzdr11/18.jpg" alt=""><br>
-            <img  src="R/mzdr11/19.jpg" alt=""><br>
-            <img  src="R/mzdr11/20.jpg" alt=""><br>
+            <img  src="R/mzdR50/1.jpg" alt=""><br>
+            <img  src="R/mzdR50/2.jpg" alt=""><br>
+            <img  src="R/mzdR50/3.jpg" alt=""><br>
+            <img  src="R/mzdR50/4.jpg" alt=""><br>
+            <img  src="R/mzdR25/5.jpg" alt=""><br>
+            <img  src="R/mzdR50/6.jpg" alt=""><br>
+            <img  src="R/mzdR50/7.jpg" alt=""><br>
+            <img  src="R/mzdR50/8.jpg" alt=""><br>
+            <img  src="R/mzdR50/9.jpg" alt=""><br>
+            <img  src="R/mzdR50/10.jpg" alt=""><br>
+            <img  src="R/mzdR50/11.jpg" alt=""><br>
+            <img  src="R/mzdR50/12.jpg" alt=""><br>
+            <img  src="R/mzdR50/13.jpg" alt=""><br>
+            <img  src="R/mzdR50/14.jpg" alt=""><br>
+            <img  src="R/mzdR50/15.jpg" alt=""><br>
+            <img  src="R/mzdR50/16.jpg" alt=""><br>
+            <img  src="R/mzdR50/17.jpg" alt=""><br>
+            <img  src="R/mzdR50/18.jpg" alt=""><br>
+            <img  src="R/mzdR50/19.jpg" alt=""><br>
+            <img  src="R/mzdR50/20.jpg" alt=""><br>
+            <img  src="R/mzdR50/21.jpg" alt=""><br>
+            <img  src="R/mzdR50/22.jpg" alt=""><br>
+            
+          
       
           
         </picture>
@@ -56,6 +60,6 @@ Miecz Zabójcy Demonów, Rozdział 11
         
     </div>
 
-    
+   
 </body>
 </html>

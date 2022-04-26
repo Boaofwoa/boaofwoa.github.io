@@ -46,7 +46,7 @@ nav{
     
 float: right;
 border-radius: 5px;
-background-color:rgba(3, 3, 3, 0.668) ;
+background-color:rgb(3, 3, 3) ;
 height: 40px;
 width: 170px;
 font-family: 'Patrick Hand', cursive;
@@ -54,6 +54,8 @@ font-size: 20px;
 margin-top: 20px;
 border-color: rgb(255, 255, 255);
 margin-right: 20px;
+transition: all 0.3s;
+color: white;
 }
 .lewygu
 {
@@ -67,5 +69,23 @@ margin-right: 20px;
     margin-top: 20px;
     border-color: rgb(79, 79, 79);
     margin-left: 20px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: all 0.3s;
+}
+.lewygu:hover
+{
+    transform: scale(1.1) ;
+    border-color: rgb(255, 255, 255);
+    background-color:rgb(3, 3, 3) ;
+    color: white;
+
+}
+.prawygu:hover
+{
+    transform: scale(1.1) ;
+    border-color: rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255) ;
+    color: rgb(0, 0, 0);
+    font-size: 21px;
+
 }

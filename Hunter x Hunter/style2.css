@@ -187,7 +187,7 @@ img
     background-color: aliceblue;
     color: black;
     border-color: rgb(0, 0, 0);
-   
+    transform: scale(1.05) ;
    
 }
 .Homebut:focus
@@ -197,8 +197,8 @@ img
     color: black;
     border-color: rgb(0, 0, 0);
   margin-top: 20px;
-    box-shadow: rgba(0, 255, 76, 0.4) -5px 5px
+    box-shadow: rgba(149, 0, 255, 0.4) -5px 5px
+    
 }
-
 
 
